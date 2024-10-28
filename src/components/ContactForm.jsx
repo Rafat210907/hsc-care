@@ -46,14 +46,14 @@ const ContactForm = () => {
     <div className="mx-auto max-w-[800px]">
       <form  data-aos='fade-up' data-aos-duration="700" onSubmit={onSubmit}>
         <div className="flex flex-col md:flex-row gap-4 mb-4">
-          <input
+          <input data-aos='fade-down' data-aos-duration="800"
             type="text"
             className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
             required
             placeholder="Your Name"
             name="name"
           />
-          <input
+          <input data-aos='fade-left' data-aos-duration="800"
             type="text"
             className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
             required
@@ -62,14 +62,14 @@ const ContactForm = () => {
           />
         </div>
         <div className="flex flex-col md:flex-row gap-4 mb-4">
-          <input
+          <input data-aos='fade-right' data-aos-duration="800"
             type="email"
             className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
             required
             placeholder="Your email"
             name="email"
           />
-          <input
+          <input data-aos='fade-left' data-aos-duration="800"
             type="number"
             className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
             required
@@ -77,7 +77,7 @@ const ContactForm = () => {
             name="phone number"
           />
         </div>
-        <textarea
+        <textarea data-aos='fade-down' data-aos-duration="800"
           className="w-full bg-[#110c2eb3] rounded-lg px-5 py-4 outline-none resize-none placeholder:text-dark/80"
           placeholder="Your Message"
           name="Message"
