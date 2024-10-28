@@ -4,7 +4,7 @@ import img from '../assets/logo.png'
 
 
 // Teachers Data
-export const teacherdata = [
+export const teacherData = [
   {
     id: 1,
     img: img,

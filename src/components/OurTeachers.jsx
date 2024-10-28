@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-import { teamData } from "../constants/Index";
+import { teacherData } from "../constants/Index";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -20,7 +20,7 @@ const Team = () => {
         Meet Our Teachers
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
-        {teamData.map((data) => (
+        {teacherData.map((data) => (
           <div data-aos='fade-down' data-aos-duration="800" key={data.id} className="p-10 bg-[#110d2ed0] rounded-xl flex flex-col justify-center items-center">
             <div className="size-42 bg-dark overflow-hidden rounded-xl">
               <img src={data.img} className="w-full" alt="Team Member" />
