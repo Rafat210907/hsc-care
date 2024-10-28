@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="pt-48 pb-4 relative">
       <div className="absolute inset-0 -z-20 h-full w-full items-center px-5 py-24 [background:radial-gradient(155%_125%_at_50%_10%,#030014_40%,#2b0331_100%)]"></div>
       <div className="max-width flex flex-wrap md:justify-between  gap-y-12 gap-x-16 md:gap-0 mb-12">
-        <div className="md:w-1/4 text-center">
+        <div className="md:w-1/4 text-center" data-aos='fade-up' data-aos-duration="1400">
           <img className="w-28 mx-auto" src={logo} alt="" />
           <h2 className="text-xl text-white font-semibold my-2">
             HSC <span className="text-primary"> CARE</span>{" "}
