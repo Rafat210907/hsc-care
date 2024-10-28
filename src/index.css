@@ -28,8 +28,7 @@ body {
 }
 @media (max-width: 768px){
   .bg{
-    height: 400px;
-    width: 100vw;
+    display:none;
   }
 }
 
