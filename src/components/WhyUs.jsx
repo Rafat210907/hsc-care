@@ -13,7 +13,7 @@ const WhyUs = () => {
   return (
     <section id="why-us" className="pt-20 sm:pt-32 relative">
       <div className=" max-width">
-        <h6  data-aos='fade-up' data-aos-duration="600" className="text-lg sm:text-2xl text-center text-secondary mb-2">
+        <h6  data-aos='fade-up' data-aos-duration="600" className="text-lg sm:text-2xl text-center text-blue-400 mb-2">
           Why Us
         </h6>
         <h2  data-aos='fade-up' data-aos-duration="600" className="text-2xl sm:text-[36px] leading-tight text-center font-bold mb-4 sm:mb-8">
@@ -25,19 +25,19 @@ const WhyUs = () => {
         </div>
           <div data-aos='fade-up' data-aos-duration="800" className="w-full space-y-8">
             <div className="flex gap-3">
-              <MdOutlineDone className="text-white translate-y-2 bg-secondary size-7 p-[1.8px] rounded-full" />
+              <MdOutlineDone className="text-white translate-y-2 bg-blue-700 size-7 p-[1.8px] rounded-full" />
               <p className="text-dark text-[17px] w-full">
              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum reiciendis repellendus magnam fugit ab odio totam optio ducimus cumque deserunt.
               </p>
             </div>
             <div className="flex gap-3">
-              <MdOutlineDone className="text-white translate-y-2 bg-secondary size-7 p-[1.8px] rounded-full" />
+              <MdOutlineDone className="text-white translate-y-2 bg-blue-700 size-7 p-[1.8px] rounded-full" />
               <p className="text-dark text-[17px] w-full">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus recusandae suscipit harum. Iure maiores numquam velit ducimus explicabo illo amet animi minus suscipit cupiditate. Assumenda.
               </p>
             </div>
             <div className="flex gap-3">
-              <MdOutlineDone className="text-white translate-y-2 bg-secondary size-7 p-[1.8px] rounded-full" />
+              <MdOutlineDone className="text-white translate-y-2 bg-blue-700 size-7 p-[1.8px] rounded-full" />
               <p className="text-dark text-[17px] w-full">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo aspernatur saepe corporis possimus sunt expedita debitis libero harum illo, modi id impedit vero autem dicta hic temporibus officiis minima? Omnis?
               </p>

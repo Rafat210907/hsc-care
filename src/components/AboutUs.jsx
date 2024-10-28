@@ -11,9 +11,9 @@ const AboutUs = () => {
   }, []);
   return (
 
-    <section id="about" className="sm:pt-6 relative pb-10">
-      <h6 className="text-3xl sm:text-4xl text-secondary flex relative items-start text-center justify-center" data-aos='fade-down' data-aos-duration="800" >About Us</h6>
-      <div  data-aos='fade-up' data-aos-duration="800" className="max-width flex flex-col-reverse md:flex-row items-center justify-center gap-10 sm:gap-6">
+    <section id="about" className="sm:pt-32 relative ">
+      <h6 className="text-3xl sm:text-4xl text-blue-400 flex relative items-start text-center justify-center mb-16" data-aos='fade-down' data-aos-duration="300" >About Us</h6>
+      <div  data-aos='fade-up' data-aos-duration="800" className="max-width flex flex-col-reverse md:flex-row items-center justify-center mb-32 gap-10 sm:gap-6">
         <div className="w-full">
           <h2 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-8">
             Welcome to <span className="text-primary">HSC CARE</span>
