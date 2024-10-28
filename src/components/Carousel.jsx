@@ -42,7 +42,7 @@ const Carousel = () => {
   }, [])
   return (
     <section id="carousel" className="relative">
-    <div className="flex items-center justify-center min-h-screen" >
+    <div className="flex items-center justify-center mt-20 mb-20" >
       <div
         className="relative w-[1200px] h-[550px] bg-[#0c091a] border-[#0c091a] shadow-lg overflow-hidden"
         onMouseEnter={() => setIsSliding(false)}

@@ -7,7 +7,9 @@ const Hero = () => {
     Aos.init();
   }, []);
   return (
-    <h1></h1>
+    <div className="bg">
+      <h1 className="text-black">Hi</h1>
+    </div>
   );
 };
 

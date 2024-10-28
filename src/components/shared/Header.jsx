@@ -42,14 +42,6 @@ const Header = () => {
                 About Us
               </li>
             </NavLink>
-            <NavLink to="/#carousel">
-              <li
-                className="md:hover:text-primary duration-300"
-                onClick={handleClose}
-              >
-                Carousel
-              </li>
-            </NavLink>
             <li
               className="md:hover:text-primary duration-300"
               onClick={handleClose}
