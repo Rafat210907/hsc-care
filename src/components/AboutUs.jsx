@@ -10,8 +10,9 @@ const AboutUs = () => {
     Aos.init();
   }, []);
   return (
-    <section id="about" className="sm:pt-2 relative pb-10">
-      <h6 className="text-3xl sm:text-4xl text-secondary mb-2 flex relative items-start text-center justify-center" data-aos='fade-down' data-aos-duration="800" >About Us</h6>
+
+    <section id="about" className="sm:pt-6 relative pb-10">
+      <h6 className="text-3xl sm:text-4xl text-secondary flex relative items-start text-center justify-center" data-aos='fade-down' data-aos-duration="800" >About Us</h6>
       <div  data-aos='fade-up' data-aos-duration="800" className="max-width flex flex-col-reverse md:flex-row items-center justify-center gap-10 sm:gap-6">
         <div className="w-full">
           <h2 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-8">
