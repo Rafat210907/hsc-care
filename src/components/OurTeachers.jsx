@@ -17,15 +17,15 @@ const OurTeachers = () => {
     Aos.init();
   }, []);
   return (
-    <section id="ourteachers" className="relative sm:pt-32">
+    <section id="ourteachers" className="relative mb-32 sm:pt-20">
       <div className="max-width">
-      <h6  data-aos='' data-aos-duration="800" className="text-xl sm:text-2xl text-center text-blue-500 "> T{typeEffect}   </h6>
+      <h6  data-aos='' data-aos-duration="800" className="text-2xl sm:text-3xl text-center text-blue-500 "> T{typeEffect}   </h6>
       <h2  data-aos='fade-up' data-aos-duration="300" className="text-2xl sm:text-4xl text-center font-bold mb-4 sm:mb-8">
         Meet Our Teachers
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
         {teacherData.map((data) => (
-          <div data-aos='fade-up' data-aos-duration="800" key={data.id} className="p-10 bg-[#110d2ed0] rounded-xl flex flex-col justify-center items-center">
+          <div data-aos='fade-up' data-aos-duration="1200" key={data.id} className="p-10 bg-[#110d2ed0] rounded-xl flex flex-col justify-center items-center">
             <div className="size-42 bg-dark overflow-hidden rounded-xl">
               <img src={data.img} className="w-full" alt="Team Member" />
             </div>

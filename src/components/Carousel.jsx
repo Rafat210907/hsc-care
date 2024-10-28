@@ -41,8 +41,8 @@ const Carousel = () => {
     Aos.init();
   }, [])
   return (
-    <section id="carousel" className="relative mt-32" data-aos='fade-left' data-aos-duration="1400">
-    <div className="flex items-center justify-center mt-20 mb-20" >
+    <section id="carousel" className="relative" data-aos='fade-left' data-aos-duration="1400">
+    <div className="flex items-center justify-center mt-20" >
       <div
         className="relative w-[1200px] h-[550px] bg-[#0c091a] border-[#0c091a] shadow-lg overflow-hidden"
         onMouseEnter={() => setIsSliding(false)}
