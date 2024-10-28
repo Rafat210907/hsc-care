@@ -3,8 +3,8 @@ import img from '../assets/logo.png'
 
 
 
-// Team members Data
-export const teamData = [
+// Teachers Data
+export const teacherdata = [
   {
     id: 1,
     img: img,
