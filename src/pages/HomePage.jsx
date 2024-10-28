@@ -1,11 +1,12 @@
 import Hero from "../components/Hero";
 import OurTeachers from "../components/OurTeachers";
-//import Tour from "../components/Tour";
+import Carousel from "../components/Carousel";
 
 const HomePage = () => {
   return (
     <>
       <Hero />
+      <Carousel /> 
       <OurTeachers />
     </>
   );

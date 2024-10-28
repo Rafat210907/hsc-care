@@ -34,7 +34,7 @@ const Header = () => {
               </li>
             </NavLink>
 
-            <NavLink to="/#services">
+            <NavLink to="/#about">
               <li
                 className="md:hover:text-primary duration-300"
                 onClick={handleClose}
@@ -42,7 +42,14 @@ const Header = () => {
                 About Us
               </li>
             </NavLink>
-
+            <NavLink to="/#carousel">
+              <li
+                className="md:hover:text-primary duration-300"
+                onClick={handleClose}
+              >
+                Carousel
+              </li>
+            </NavLink>
             <li
               className="md:hover:text-primary duration-300"
               onClick={handleClose}
@@ -53,7 +60,7 @@ const Header = () => {
               className="md:hover:text-primary duration-300"
               onClick={handleClose}
             >
-              <NavLink to="/#team">Our Teachers</NavLink>
+              <NavLink to="/#ourteachers">Our Teachers</NavLink>
             </li>
             
 

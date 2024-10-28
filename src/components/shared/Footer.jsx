@@ -26,6 +26,9 @@ const Footer = () => {
               <Link to="/">About Us</Link>
             </li>
             <li className="hover:translate-x-3 hover:text-primary duration-200">
+              <Link to="/">Carousel</Link>
+            </li>
+            <li className="hover:translate-x-3 hover:text-primary duration-200">
               <Link to="/">Why Us</Link>
             </li>
             <li className="hover:translate-x-3 hover:text-primary duration-200">
