@@ -17,7 +17,7 @@ const OurTeachers = () => {
     Aos.init();
   }, []);
   return (
-    <section id="ourteachers" className="relative mt-36">
+    <section id="ourteachers" className="relative sm:pt-32">
       <div className="max-width">
       <h6  data-aos='' data-aos-duration="800" className="text-xl sm:text-2xl text-center text-blue-500 "> T{typeEffect}   </h6>
       <h2  data-aos='fade-up' data-aos-duration="300" className="text-2xl sm:text-4xl text-center font-bold mb-4 sm:mb-8">
