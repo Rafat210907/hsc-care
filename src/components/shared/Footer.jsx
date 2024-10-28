@@ -13,8 +13,7 @@ const Footer = () => {
             HSC <span className="text-primary"> CARE</span>{" "}
           </h2>
           <p className="text-dark text-sm">
-            Crypto Wave is committed to guiding our clients through the
-            complexities of the crypto landscape with clarity and precision.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officia aliquam, consequuntur rem exercitationem cum cumque dolores dicta asperiores earum pariatur laboriosam! Ad!
           </p>
         </div>
         <div>
