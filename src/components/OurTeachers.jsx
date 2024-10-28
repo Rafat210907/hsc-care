@@ -1,20 +1,25 @@
 import { useEffect } from "react";
-
 import { teacherData } from "../constants/Index";
-
 import Aos from "aos";
 import "aos/dist/aos.css";
+import {useTypewriter } from "react-simple-typewriter"
+
+
 
 const OurTeachers = () => {
+
+  const [typeEffect] = useTypewriter({
+    words: ['eachers'],
+    loop: {},
+    typeSpeed: 100,
+  })
   useEffect(() => {
     Aos.init();
   }, []);
   return (
     <section id="ourteachers" className="relative">
       <div className="max-width">
-      <h6  data-aos='' data-aos-duration="800" className="text-xl sm:text-2xl text-center text-secondary ">
-        Teachers
-      </h6>
+      <h6  data-aos='' data-aos-duration="800" className="text-xl sm:text-2xl text-center text-secondary "> T{typeEffect}   </h6>
       <h2  data-aos='fade-up' data-aos-duration="300" className="text-2xl sm:text-4xl text-center font-bold mb-4 sm:mb-8">
         Meet Our Teachers
       </h2>
