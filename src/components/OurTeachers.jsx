@@ -13,10 +13,10 @@ const Team = () => {
     <section id="team" className="pt-20 sm:pt-32 relative">
         
       <div className="max-width">
-      <h6  data-aos='fade-up' data-aos-duration="600" className="text-lg sm:text-2xl text-center text-secondary mb-2">
+      <h6  data-aos='fade-up' data-aos-duration="800" className="text-lg sm:text-2xl text-center text-secondary mb-2">
         Teachers
       </h6>
-      <h2  data-aos='fade-up' data-aos-duration="600" className="text-2xl sm:text-4xl text-center font-bold mb-4 sm:mb-8">
+      <h2  data-aos='fade-up' data-aos-duration="1200" className="text-2xl sm:text-4xl text-center font-bold mb-4 sm:mb-8">
         Meet Our Teachers
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
