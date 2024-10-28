@@ -26,7 +26,12 @@ body {
   background-size: cover;
   background-position: center;
 }
-
+@media (max-width: 768px){
+  .bg{
+    height: 400px;
+    width: 100vw;
+  }
+}
 
 @layer base {
   input[type="number"]::-webkit-inner-spin-button,
