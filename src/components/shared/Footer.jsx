@@ -17,7 +17,7 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-white font-semibold" data-aos='fade-down' data-aos-duration="800">Quick Links</h4>
+          <h4 className="text-xl text-white font-semibold" data-aos='fade-down' data-aos-duration="1400">Quick Links</h4>
           <ul className="mt-4 space-y-3 text-[13px] sm:text-sm list-disc  px-4 text-dark" data-aos='fade-right' data-aos-duration="600">
             <li className="hover:translate-x-3 hover:text-primary duration-200">
               <Link to="/">Home</Link>

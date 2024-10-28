@@ -44,16 +44,16 @@ const ContactForm = () => {
 
   return (
     <div className="mx-auto max-w-[800px]">
-      <form  data-aos='fade-up' data-aos-duration="700" onSubmit={onSubmit}>
+      <form  data-aos='fade-up' data-aos-duration="1000" onSubmit={onSubmit}>
         <div className="flex flex-col md:flex-row gap-4 mb-4">
-          <input data-aos='fade-down' data-aos-duration="800"
+          <input data-aos='fade-down' data-aos-duration="1400"
             type="text"
             className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
             required
             placeholder="Your Name"
             name="name"
           />
-          <input data-aos='fade-left' data-aos-duration="800"
+          <input data-aos='fade-left' data-aos-duration="1200"
             type="text"
             className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
             required
@@ -62,14 +62,14 @@ const ContactForm = () => {
           />
         </div>
         <div className="flex flex-col md:flex-row gap-4 mb-4">
-          <input data-aos='fade-right' data-aos-duration="800"
+          <input data-aos='fade-right' data-aos-duration="1300"
             type="email"
             className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
             required
             placeholder="Your email"
             name="email"
           />
-          <input data-aos='fade-left' data-aos-duration="800"
+          <input data-aos='fade-left' data-aos-duration="1400"
             type="number"
             className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
             required
@@ -77,7 +77,7 @@ const ContactForm = () => {
             name="phone number"
           />
         </div>
-        <textarea data-aos='fade-down' data-aos-duration="800"
+        <textarea data-aos='fade-up' data-aos-duration="1400"
           className="w-full bg-[#110c2eb3] rounded-lg px-5 py-4 outline-none resize-none placeholder:text-dark/80"
           placeholder="Your Message"
           name="Message"
@@ -86,7 +86,7 @@ const ContactForm = () => {
         ></textarea>
         <div className="text-center mt-3">
           <button
-            className="borde border-secondary w-full px-8 py-3 bg-[#110c2eb3] hover:bg-white hover:text-black duration-300 rounded-lg font-semibold uppercase tracking-wider text-sm sm:text-lg"
+            className="borde border-secondary w-full px-8 py-3 bg-[#110c2eb3] hover:bg-white hover:text-black duration-500 rounded-lg font-semibold uppercase tracking-wider text-sm sm:text-lg"
             type="submit"
           >
             Submit
