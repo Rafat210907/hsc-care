@@ -20,6 +20,13 @@ body {
   background: #030014;
 }
 
+.bg{
+  background-image: url("./assets/demo.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
 
 @layer base {
   input[type="number"]::-webkit-inner-spin-button,

@@ -8,7 +8,7 @@ const Hero = () => {
   }, []);
   return (
     <div className="bg">
-      <h1 className="text-black">Hi</h1>
+      <h1 className="text-black"></h1>
     </div>
   );
 };
