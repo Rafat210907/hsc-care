@@ -11,7 +11,7 @@ const AboutUs = () => {
   }, []);
   return (
 
-    <section id="about" className="sm:pt-32 relative mt-11">
+    <section id="about" className="sm:pt-32 relative mt-28">
       <h6 className="text-3xl sm:text-4xl text-blue-400 flex relative items-start text-center justify-center" data-aos='fade-down' data-aos-duration="300" >About Us</h6>
       <div data-aos='fade-up' data-aos-duration="800" className="max-width flex flex-col-reverse md:flex-row items-center justify-center mb-32 gap-10 sm:gap-6">
         <div className="w-full" data-aos='fade-right' data-aos-duration="800">
