@@ -166,3 +166,84 @@ ion-icon{
 .swiper-pagination-bullet {
   background-color: white !important;
 }
+
+/*
+.carousel{
+  padding: 5rem;
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.box{
+  background-color: lightgreen;
+  height: 300px;
+}
+
+.box h3{
+  text-align: center;
+}
+.slick-slide div {
+  margin: 0 1rem;
+}
+
+.slick-next {
+  right: -40px !important;
+}
+
+.slick-dots li.slick-active button:before{
+  color: lightgreen !important;
+}
+
+.slick-dots li button:before{
+  color: #fff !important;
+  font-size: 1rem !important;
+  top: 2rem !important;
+}
+  */
+ 
+
+
+  .carousel {
+    padding: 2rem;
+    color: #fff;
+    height: auto;
+    width: 100%;
+  }
+  
+  .box {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden; /* Ensure images do not overflow the box */
+  }
+  
+  .box img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .slick-slide div {
+    margin: 0 .2rem;
+  }
+  
+  .slick-next {
+    right: -20px !important;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: lightgreen !important;
+  }
+  
+  .slick-dots li button:before {
+    color: #fff !important;
+    font-size: 1rem !important;
+    top: 2rem !important;
+  }
+  
+  /* Media queries can remain the same */
+  

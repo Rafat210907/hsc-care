@@ -1,12 +1,15 @@
 import Hero from "../components/Hero";
 import OurTeachers from "../components/OurTeachers";
-//import Carousel from "../components/Carousel";
 import AboutUs from "../components/AboutUs";
 import WhyUs from "../components/WhyUs";
+import Slide from "../components/Slide";
+
+
 const HomePage = () => {
   return (
     <>
       <Hero />
+      <Slide />
       <AboutUs />
        <WhyUs />
       <OurTeachers />
