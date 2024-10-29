@@ -6,9 +6,9 @@ const Slide = () => {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 2,
+    speed: 800,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
       {
