@@ -184,6 +184,7 @@ ion-icon{
   .box img {
     width: 100%; /* Make images responsive */
     height: auto; /* Maintain aspect ratio */
+    transition: all .3s;
   }
   
   .slick-slide div {
