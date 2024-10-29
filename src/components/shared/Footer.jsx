@@ -16,7 +16,9 @@ const Footer = () => {
           </h2>
           <p className="text-dark text-md" data-aos-duration="900">
           <ion-icon name="location-sharp" ></ion-icon> Dakbanglow Road, Balaganj, Sylhet Bangladesh
-          </p>
+          </p><br />
+          <ion-icon name="mail-outline"></ion-icon>
+          <p>hsccare.2021@gmail.com</p>
         </div>
         <div>
           <h4 className="text-xl text-white font-semibold" data-aos='fade-down' data-aos-duration="500">Quick Links</h4>
