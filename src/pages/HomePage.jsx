@@ -9,8 +9,8 @@ const HomePage = () => {
       <Hero />
       <Carousel /> 
       <AboutUs />
+       <WhyUs />
       <OurTeachers />
-      <WhyUs /> 
     </>
   );
 };
