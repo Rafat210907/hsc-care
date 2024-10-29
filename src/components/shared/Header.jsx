@@ -62,7 +62,7 @@ const Header = () => {
             >
               <NavLink to="/#ourteachers">
               <div className="min-[888px]:hidden">
-          <Link to='/contact' className="px-4 py-2 border-2 border-secondary hover:border-transparent hover:bg-secondary rounded-[30px] font-semibold  duration-300">Contact Us</Link>
+          <Link to='/contact' className="px-4 py-2 border-2 border-secondary hover:border-transparent hover:bg-blue-950 rounded-[30px] font-semibold  duration-300">Contact Us</Link>
         </div>
               </NavLink>
             </li>
@@ -71,13 +71,13 @@ const Header = () => {
           </ul>
         </nav>
         <div className="max-[888px]:hidden">
-          <Link to='/contact' className="px-4 py-2 border-2 border-secondary hover:border-transparent hover:bg-secondary rounded-[30px] font-semibold  duration-300">Contact Us</Link>
+          <Link to='/contact' className="px-4 py-2 border-2 border-secondary hover:border-transparent hover:bg-blue-950 rounded-[30px] font-semibold  duration-300">Contact Us</Link>
         </div>
         <div
           className="md:hidden w-10 h-[35px] p-2  rounded-[4px] cursor-pointer flex justify-center items-center z-10"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <div className={isOpen ? "active-hamburger" : "hamburger"}></div>
+          <div className={isOpen ? "active-navbar" : "navbar"}></div>
         </div>
       </div>
     </header>

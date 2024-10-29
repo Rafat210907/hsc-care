@@ -49,8 +49,8 @@ ion-icon{
 }
 
 
-/* hamburger menu */
-.hamburger {
+/* navbar menu */
+.navbar {
   width: 23px;
   height: 1.6px;
   background: white;
@@ -60,7 +60,7 @@ ion-icon{
   user-select: none;
 }
 
-.hamburger::before {
+.navbar::before {
   content: "";
   position: absolute;
   width: 23px;
@@ -71,7 +71,7 @@ ion-icon{
   transform: translateY(-7px);
 }
 
-.hamburger::after {
+.navbar::after {
   content: "";
   position: absolute;
   width: 23px;
@@ -82,7 +82,7 @@ ion-icon{
   transform: translateY(7px);
 }
 
-.active-hamburger {
+.active-navbar {
   width: 23px;
   height: 1.6px;
   background: transparent;
@@ -92,7 +92,7 @@ ion-icon{
   user-select: none;
 }
 
-.active-hamburger::before {
+.active-navbar::before {
   content: "";
   position: absolute;
   width: 23px;
@@ -103,7 +103,7 @@ ion-icon{
   transform: rotate(-45deg);
 }
 
-.active-hamburger::after {
+.active-navbar::after {
   content: "";
   position: absolute;
   width: 23px;

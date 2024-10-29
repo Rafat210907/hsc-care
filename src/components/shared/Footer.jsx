@@ -14,12 +14,12 @@ const Footer = () => {
           <h2 className="text-xl text-white font-semibold my-2">
             HSC <span className="text-primary"> CARE</span>{" "}
           </h2>
-          <p className="text-dark text-md" data-aos='fade-right' data-aos-duration="600">
+          <p className="text-dark text-md" data-aos-duration="900">
           <ion-icon name="location-sharp" ></ion-icon> Dakbanglow Road, Balaganj, Sylhet Bangladesh
           </p>
         </div>
         <div>
-          <h4 className="text-xl text-white font-semibold" data-aos='fade-down' data-aos-duration="1400">Quick Links</h4>
+          <h4 className="text-xl text-white font-semibold" data-aos='fade-down' data-aos-duration="500">Quick Links</h4>
           <ul className="mt-4 space-y-3 text-[13px] sm:text-sm list-disc  px-4 text-dark" data-aos='fade-right' data-aos-duration="600">
             <li className="hover:translate-x-3 hover:text-primary duration-200">
               <Link to="/">Home</Link>
