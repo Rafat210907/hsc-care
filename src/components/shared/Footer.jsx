@@ -1,6 +1,8 @@
 import { FaFacebook, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "/logo.png";
+import "aos/dist/aos.css";
+
 
 const Footer = () => {
   return (
@@ -12,8 +14,8 @@ const Footer = () => {
           <h2 className="text-xl text-white font-semibold my-2">
             HSC <span className="text-primary"> CARE</span>{" "}
           </h2>
-          <p className="text-dark text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officia aliquam, consequuntur rem exercitationem cum cumque dolores dicta asperiores earum pariatur laboriosam! Ad!
+          <p className="text-dark text-md" data-aos='fade-right' data-aos-duration="600">
+          <ion-icon name="location-sharp" ></ion-icon> Dakbanglow Road, Balaganj, Bangladesh
           </p>
         </div>
         <div>

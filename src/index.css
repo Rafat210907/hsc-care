@@ -19,7 +19,9 @@ body {
   color: white;
   background: #030014;
 }
-
+ion-icon{
+  font-size: 24px;
+}
 .bg{
   background-image: url("./assets/demo.jpg");
   height: 100vh;
