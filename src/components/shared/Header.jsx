@@ -60,7 +60,7 @@ const Header = () => {
               className="md:hover:text-primary duration-300"
               onClick={handleClose}
             >
-              <NavLink to="/#team">
+              <NavLink to="/#ourteachers">
               <div className="min-[888px]:hidden">
           <Link to='/contact' className="px-4 py-2 border-2 border-secondary hover:border-transparent hover:bg-secondary rounded-[30px] font-semibold  duration-300">Contact Us</Link>
         </div>

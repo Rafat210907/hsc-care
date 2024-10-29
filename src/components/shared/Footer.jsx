@@ -15,7 +15,7 @@ const Footer = () => {
             HSC <span className="text-primary"> CARE</span>{" "}
           </h2>
           <p className="text-dark text-md" data-aos='fade-right' data-aos-duration="600">
-          <ion-icon name="location-sharp" ></ion-icon> Dakbanglow Road, Balaganj, Bangladesh
+          <ion-icon name="location-sharp" ></ion-icon> Dakbanglow Road, Balaganj, Sylhet Bangladesh
           </p>
         </div>
         <div>
@@ -25,13 +25,13 @@ const Footer = () => {
               <Link to="/">Home</Link>
             </li>
             <li className="hover:translate-x-3 hover:text-primary duration-200">
-              <Link to="/">About Us</Link>
+              <Link to="/#about">About Us</Link>
             </li>
             <li className="hover:translate-x-3 hover:text-primary duration-200">
-              <Link to="/">Why Us</Link>
+              <Link to="/#why-us">Why Us</Link>
             </li>
             <li className="hover:translate-x-3 hover:text-primary duration-200">
-              <Link to="/">Our Teachers</Link>
+              <Link to="/#ourteachers">Our Teachers</Link>
             </li>
             <li className="hover:translate-x-3 hover:text-primary duration-200">
               <Link to="/contact">Contact</Link>
