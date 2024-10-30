@@ -40,6 +40,9 @@ const Slide = () => {
 
   return (
     <div className="carousel mt-20" data-aos='fade-up' data-aos-duration="1200">
+       <h2  data-aos='fade-up' data-aos-duration="300" className="text-2xl sm:text-4xl text-center font-bold mb-1 sm:mb-8">
+        Gallery
+      </h2>
       <Slider {...settings}>
         <div className="box">
         <img src={img1} alt="Description 1" />
