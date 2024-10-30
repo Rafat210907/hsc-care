@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="pt-36 pb-4 relative">
       <div className="absolute inset-0 -z-20 h-full w-full items-center px-5 py-24 "></div>
       <div className="max-width flex flex-wrap md:justify-between  gap-y-12 gap-x-16 md:gap-0 mb-12">
-        <div className="md:w-1/4 text-center" data-aos='fade-up' data-aos-duration="1400">
+        <div className="md:w-1/4 text-center" data-aos='fade-up' data-aos-duration="800" >
           <img className="w-28 mx-auto" src={logo} alt="" />
           <h2 className="text-xl text-white font-semibold my-2">
             HSC <span className="text-primary"> CARE</span>{" "}
@@ -21,8 +21,8 @@ const Footer = () => {
           <p>hsccare.2021@gmail.com</p>
         </div>
         <div>
-          <h4 className="text-xl text-white font-semibold" data-aos='fade-down' data-aos-duration="500">Quick Links</h4>
-          <ul className="mt-4 space-y-3 text-[13px] sm:text-sm list-disc  px-4 text-dark" data-aos='fade-right' data-aos-duration="600">
+          <h4 className="text-xl text-white font-semibold" data-aos='fade-up' data-aos-duration="800">Quick Links</h4>
+          <ul className="mt-4 space-y-3 text-[13px] sm:text-sm list-disc  px-4 text-dark" data-aos='fade-up' data-aos-duration="800">
             <li className="hover:translate-x-3 hover:text-primary duration-200">
               <Link to="/">Home</Link>
             </li>
@@ -42,8 +42,8 @@ const Footer = () => {
         </div>
 
         <div>
-          <h4 className="text-xl text-white font-semibold" data-aos='fade-left' data-aos-duration="600">Follow Us</h4>
-          <div className="grid-flow-row gap-5 mt-5 " data-aos='fade-left' data-aos-duration="800">
+          <h4 className="text-xl text-white font-semibold" data-aos='fade-up' data-aos-duration="800">Follow Us</h4>
+          <div className="grid-flow-row gap-5 mt-5 " data-aos='fade-up' data-aos-duration="800">
             <Link  className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-purple-600 duration-300"
               to="https://www.facebook.com/profile.php?id=100063636052627"
               target="_blank"
