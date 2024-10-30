@@ -16,7 +16,7 @@ const AboutUs = () => {
       <div data-aos='fade-up' data-aos-duration="800" className="max-width flex flex-col-reverse md:flex-row items-center justify-center mb-32 gap-10 sm:gap-6">
         <div className="w-full" data-aos='fade-right' data-aos-duration="800">
           <h2 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-8">
-            Welcome to <span className="text-primary">HSC CARE</span>
+          <span className="text-primary">HSC CARE</span>
           </h2>
           <p className="text-[16px] text-dark text-justify mb-6">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi pariatur aspernatur consequatur! Possimus tempora architecto repudiandae praesentium et quam commodi adipisci sequi a.
@@ -38,7 +38,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div className="w-full" data-aos='fade-left' data-aos-duration="1200">
+        <div className="w-full">
           <Lottie className="w-4/5 mx-auto" animationData={ImgGIF}/>
         </div>
       </div>

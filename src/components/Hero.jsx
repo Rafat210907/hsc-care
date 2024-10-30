@@ -7,9 +7,13 @@ const Hero = () => {
     Aos.init();
   }, []);
   return (
-    <div className="bg">
+  <div>
+     <div className="bg">
       <h1 className="text-black"></h1>
     </div>
+    <div className="bgm"></div>
+  </div>
+   
   );
 };
 
