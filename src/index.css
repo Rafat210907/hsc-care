@@ -282,8 +282,10 @@ ion-icon{
     cursor: pointer;
   }
 
-.close-button:hover {
-  background-color: white;
-  border-radius: 20px;
+@media (min-width: 768px)
+{
+  .close-button:hover {
+    background-color: white;
+    border-radius: 16px;
+  }
 }
-  
