@@ -61,6 +61,7 @@ const Slide = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div className="carousel-container">
       <div className="carousel mt-20" data-aos="fade-up" data-aos-duration="1200">
         <h2
@@ -86,6 +87,12 @@ const Slide = () => {
             <span className="close-button" onClick={closeModal}>&times;</span>
             <img src={currentImage} alt="Enlarged view" />
           </div>
+=======
+    <div className="carousel mt-20" data-aos='fade-up' data-aos-duration="1200">
+      <Slider {...settings}>
+        <div className="box">
+        <img src={img1} alt="Description 1" />
+>>>>>>> parent of aefd09a (gallery and slide responsive)
         </div>
       )}
     </div>
