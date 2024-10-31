@@ -3,6 +3,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import img1 from "../assets/tour/group.jpg";
+import img2 from "../assets/batch.jpg"
+import img3 from "../assets/batch-2.jpg"
+import img4 from "../assets/hsc-care-hsc-23-batch.jpg"
+import img5 from "../assets/hsc-care-banner.jpg"
+import img6 from "../assets/logo.png"
+
+
 
 const Slide = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -30,7 +37,7 @@ const Slide = () => {
     infinite: true,
     speed: 800,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     initialSlide: 0,
     responsive: [
       {
@@ -67,7 +74,7 @@ const Slide = () => {
             Welcome to <span className="text-primary">HSC CARE</span>
           </h2>
         <Slider {...settings}>
-          {[img1, img1, img1, img1, img1, img1, img1].map((image, index) => (
+          {[img5, img2, img3, img4,img1 ,img6  ].map((image, index) => (
             <div className="box" key={index} onClick={() => openModal(image)}>
               <img src={image} alt={`Description ${index + 1}`} />
             </div>
