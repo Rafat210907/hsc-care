@@ -3,26 +3,41 @@ import { Link } from "react-router-dom";
 import logo from "/logo.png";
 import "aos/dist/aos.css";
 
-
 const Footer = () => {
   return (
     <footer className="pt-36 pb-4 relative">
       <div className="absolute inset-0 -z-20 h-full w-full items-center px-5 py-24 "></div>
       <div className="max-width flex flex-wrap md:justify-between  gap-y-12 gap-x-16 md:gap-0 mb-12">
-        <div className="md:w-1/4 text-center" data-aos='fade-up' data-aos-duration="800" >
+        <div
+          className="md:w-1/4 text-center"
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
           <img className="w-28 mx-auto" src={logo} alt="" />
           <h2 className="text-xl text-white font-semibold my-2">
             HSC <span className="text-primary"> CARE</span>{" "}
           </h2>
           <p className="text-dark text-md" data-aos-duration="900">
-          <ion-icon name="location-sharp" ></ion-icon> Dakbanglow Road, Balaganj, Sylhet Bangladesh
-          </p><br />
+            <ion-icon name="location-sharp"></ion-icon> Dakbanglow Road,
+            Balaganj, Sylhet Bangladesh
+          </p>
+          <br />
           <ion-icon name="mail-outline"></ion-icon>
           <p>hsccare.2021@gmail.com</p>
         </div>
         <div>
-          <h4 className="text-xl text-white font-semibold" data-aos='fade-up' data-aos-duration="800">Quick Links</h4>
-          <ul className="mt-4 space-y-3 text-[13px] sm:text-sm list-disc  px-4 text-dark" data-aos='fade-up' data-aos-duration="800">
+          <h4
+            className="text-xl text-white font-semibold"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            Quick Links
+          </h4>
+          <ul
+            className="mt-4 space-y-3 text-[13px] sm:text-sm list-disc  px-4 text-dark"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
             <li className="hover:translate-x-3 hover:text-primary duration-200">
               <Link to="/">Home</Link>
             </li>
@@ -42,21 +57,34 @@ const Footer = () => {
         </div>
 
         <div>
-          <h4 className="text-xl text-white font-semibold" data-aos='fade-up' data-aos-duration="800">Follow Us</h4>
-          <div className="grid-flow-row gap-5 mt-5 " data-aos='fade-up' data-aos-duration="800">
-            <Link  className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-purple-600 duration-300"
+          <h4
+            className="text-xl text-white font-semibold"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            Follow Us
+          </h4>
+          <div
+            className="grid-flow-row gap-5 mt-5 "
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <Link
+              className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-purple-600 duration-300"
               to="https://www.facebook.com/profile.php?id=100063636052627"
               target="_blank"
             >
               <FaFacebook className="text-3xl " />
             </Link>
-            <Link className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-purple-600 duration-300"
+            <Link
+              className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-purple-600 duration-300"
               to="https://youtube.com/@hsccare2962"
               target="_blank"
             >
               <FaYoutube className="text-3xl mt-5" />
             </Link>
-            <Link className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-purple-600 duration-300"
+            <Link
+              className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-purple-600 duration-300"
               to="https://api.whatsapp.com/send?phone=%2B8801601912336"
               target="_blank"
             >

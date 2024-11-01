@@ -3,12 +3,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import img1 from "../assets/tour/group.jpg";
-import img2 from "../assets/batch.jpg"
-import img3 from "../assets/batch-2.jpg"
-import img4 from "../assets/hsc-care-hsc-23-batch.jpg"
-import img5 from "../assets/hsc-care-banner.jpg"
-
-
+import img2 from "../assets/batch.jpg";
+import img3 from "../assets/batch-2.jpg";
+import img4 from "../assets/hsc-care-hsc-23-batch.jpg";
+import img5 from "../assets/hsc-care-banner.jpg";
 
 const Slide = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -69,11 +67,11 @@ const Slide = () => {
   return (
     <div className="carousel-container">
       <div className="carousel" data-aos="fade-up" data-aos-duration="1200">
-      <h2 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-8 justify-center text-center align-center">
-            Welcome to <span className="text-primary">HSC CARE</span>
-          </h2>
+        <h2 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-8 justify-center text-center align-center">
+          Welcome to <span className="text-primary">HSC CARE</span>
+        </h2>
         <Slider {...settings}>
-          {[img5, img2, img3, img4,img1 ].map((image, index) => (
+          {[img5, img2, img3, img4, img1].map((image, index) => (
             <div className="box" key={index} onClick={() => openModal(image)}>
               <img src={image} alt={`Description ${index + 1}`} />
             </div>
@@ -85,7 +83,9 @@ const Slide = () => {
       {isModalOpen && (
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <span className="close-button" onClick={closeModal}>&times;</span>
+            <span className="close-button" onClick={closeModal}>
+              &times;
+            </span>
             <img src={currentImage} alt="Enlarged view" />
           </div>
         </div>
