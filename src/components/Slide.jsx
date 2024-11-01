@@ -7,7 +7,6 @@ import img2 from "../assets/batch.jpg"
 import img3 from "../assets/batch-2.jpg"
 import img4 from "../assets/hsc-care-hsc-23-batch.jpg"
 import img5 from "../assets/hsc-care-banner.jpg"
-import img6 from "../assets/logo.png"
 
 
 
@@ -37,7 +36,7 @@ const Slide = () => {
     infinite: true,
     speed: 800,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
       {
@@ -69,12 +68,12 @@ const Slide = () => {
 
   return (
     <div className="carousel-container">
-      <div className="carousel mt-20" data-aos="fade-up" data-aos-duration="1200">
+      <div className="carousel" data-aos="fade-up" data-aos-duration="1200">
       <h2 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-8 justify-center text-center align-center">
             Welcome to <span className="text-primary">HSC CARE</span>
           </h2>
         <Slider {...settings}>
-          {[img5, img2, img3, img4,img1 ,img6  ].map((image, index) => (
+          {[img5, img2, img3, img4,img1 ].map((image, index) => (
             <div className="box" key={index} onClick={() => openModal(image)}>
               <img src={image} alt={`Description ${index + 1}`} />
             </div>
