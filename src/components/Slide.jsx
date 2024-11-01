@@ -66,10 +66,14 @@ const Slide = () => {
 
   return (
     <div className="carousel-container">
-      <div className="carousel" data-aos="fade-up" data-aos-duration="1200">
-        <h2 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-8 justify-center text-center align-center">
-          Welcome to <span className="text-primary">HSC CARE</span>
-        </h2>
+      <div className="carousel" data-aos="fade-up" data-aos-duration="1200">  
+      <h6
+        className="text-3xl sm:text-4xl text-blue-400 flex relative items-start text-center justify-center mb-10 poppins"
+        data-aos="fade-down"
+        data-aos-duration="300"
+      >
+        Carousel
+      </h6>
         <Slider {...settings}>
           {[img5, img2, img3, img4, img1].map((image, index) => (
             <div className="box" key={index} onClick={() => openModal(image)}>

@@ -23,29 +23,49 @@ body {
 ion-icon{
   font-size: 24px;
 }
-.bg{
-  background-image: url("./assets/hsc-care-banner.jpg");
-  height: 1000px;
+
+
+
+/* Default styling for all background classes */
+.bg, .bgmd, .bgm {
   background-repeat: no-repeat;
   background-position: center;
+  width: 100%;
 }
-.bgm{
+
+.bg {
+  background-image: url("./assets/large-banner.jpg");
+  height: 500px; /* Full screen height for larger screens */
+}
+
+.bgmd {
+  background-image: url("./assets/medium.jpg"); /* Medium screen image */
+  height: 500px; /* Adjusted height for medium screens */
+}
+
+.bgm {
   background-image: url("./assets/logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 350px;
+  height: 350px; /* Fixed height for smaller screens */
 }
-@media (min-width: 767px) {
-  .bgm{
+
+/* Display only bg on screens 1146px or wider */
+@media (min-width: 1146px) {
+  .bgmd, .bgm {
     display: none;
   }
- .bg{
-  display: none;
- }
 }
-@media (max-width: 768px){
-  .bg{
-    display:none;
+
+/* Display only bgmd on screens between 680px and 1145px */
+@media (min-width: 680px) and (max-width: 1145px) {
+  .bg, .bgm {
+    display: none;
+  }
+}
+
+/* Display only bgm on screens 679px or narrower */
+@media (max-width: 679px) {
+  .bg, .bgmd {
+    display: none;
   }
 }
 
