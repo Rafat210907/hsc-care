@@ -190,138 +190,104 @@ ion-icon{
 /* swiper js custom css  */
 .swiper-button-prev,
 .swiper-button-next {
-  color:white !important;
+  color: white !important;
 }
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
-    font-size: 24px !important;
+  font-size: 24px !important;
 }
 
 .swiper-pagination-bullet {
   background-color: white !important;
 }
-  .carousel {
-    padding: 2rem;
-    color: #fff;
-    height: auto;
-    width: 100%;
-  }
-  
-  .box {
-    background-color: lightgreen;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    overflow: hidden; /* Ensure images do not overflow the box */
-  }
-  
-  .box img {
-    width: 100%; /* Make images responsive */
-    height: auto; /* Maintain aspect ratio */
-    transition: all .3s;
-  }
-  
-  .slick-slide div {
-    margin: 0 .25rem;
-  }
-  
-  .slick-next {
-    right: -25px !important;
-  }
-  
-  .slick-dots li.slick-active button:before {
-    color: lightgreen !important;
-  }
-  
-  .slick-dots li button:before {
-    color: #fff !important;
-    font-size: 1rem !important;
-    top: 1rem !important;
-  }
-  
-.box img:hover{
-  transform: scale(1.1);
-  transition: all .3s;
+
+.carousel {
+  padding: 2rem;
+  color: #fff;
+  height: auto;
+  width: 100%;
 }
 
-  /* Media queries can remain the same */
-  
+.box {
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
 
-  .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    overflow: hidden;
-  }
-  
-  .modal-content {
-    position: relative;
-    max-width: 90%;
-    max-height: 90%;
-    padding: 1rem;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-  }
-  
-  .modal-content img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    transition: transform 0.3s;
-  }
-  
-  .close-button {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 24px;
-    color: black;
-    cursor: pointer;
-  }
-  
-  
-  .modal-overlay {
-    @apply fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-80 flex justify-center items-center z-[1000] overflow-hidden;
-  }
-  
-  .modal-content {
-    @apply relative max-w-[90%] max-h-[90%] bg-white rounded-lg shadow-xl flex justify-center items-center;
-    padding: 0; /* Remove padding to avoid extra space around the image */
-    overflow: hidden; /* Ensure the image doesn't overflow the modal content */
-  }
-  
-  .modal-content img {
-    @apply w-full h-full object-cover rounded-lg transition-transform duration-300;
-  }
-  
-  .close-button {
-    @apply absolute top-2.5 right-3.5 text-xl text-black cursor-pointer;
-  }
+.box img {
+  width: 100%;
+  height: auto;
+  transition: all 0.3s;
+}
 
-  /* Scale the image slightly on hover */
-  .close-button {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 34px;
-    color: black;
-    cursor: pointer;
-  }
+.slick-slide div {
+  margin: 0 0.25rem;
+}
 
-@media (min-width: 768px)
-{
-  .close-button:hover {
-    background-color: white;
-    border-radius: 16px;
-  }
+.slick-next {
+  right: -25px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: lightgreen !important;
+}
+
+.slick-dots li button:before {
+  color: #fff !important;
+  font-size: 1rem !important;
+  top: 1rem !important;
+}
+
+.box img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.modal-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: white;
+  border-radius: 16px;
 }

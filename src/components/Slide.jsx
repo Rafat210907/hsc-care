@@ -35,6 +35,9 @@ const Slide = () => {
     speed: 800,
     slidesToShow: 3,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000, // Slide interval in milliseconds
+    pauseOnHover: false, // Keeps autoplay running even when hovering over the slide
     initialSlide: 0,
     responsive: [
       {
