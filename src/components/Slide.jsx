@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -11,10 +11,13 @@ import img5 from "../assets/hsc-care-banner.jpg";
 const Slide = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(null);
+  const sliderRef = useRef(null);
+  const timeoutRef = useRef(null); // Reference to track the timer
 
   const openModal = (imgSrc) => {
     setCurrentImage(imgSrc);
     setIsModalOpen(true);
+    pauseAutoplay();
   };
 
   const closeModal = () => {
@@ -29,6 +32,21 @@ const Slide = () => {
     };
   }, [isModalOpen]);
 
+  const pauseAutoplay = () => {
+    if (sliderRef.current) {
+      // Clear any existing timeout
+      clearTimeout(timeoutRef.current);
+
+      // Pause the autoplay
+      sliderRef.current.slickPause();
+
+      // Resume autoplay after 1.5 seconds
+      timeoutRef.current = setTimeout(() => {
+        sliderRef.current.slickPlay();
+      }, 1500);
+    }
+  };
+
   const settings = {
     dots: true,
     infinite: true,
@@ -36,8 +54,8 @@ const Slide = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1000, // Slide interval in milliseconds
-    pauseOnHover: false, // Keeps autoplay running even when hovering over the slide
+    autoplaySpeed: 1000,
+    pauseOnHover: false,
     initialSlide: 0,
     responsive: [
       {
@@ -65,19 +83,20 @@ const Slide = () => {
         },
       },
     ],
+    beforeChange: pauseAutoplay, // Trigger pause on any manual navigation
   };
 
   return (
     <div className="carousel-container">
-      <div className="carousel" data-aos="fade-up" data-aos-duration="1200">  
-      <h6
-        className="text-3xl sm:text-4xl text-blue-400 flex relative items-start text-center justify-center mb-10 poppins"
-        data-aos="fade-down"
-        data-aos-duration="300"
-      >
-        Carousel
-      </h6>
-        <Slider {...settings}>
+      <div className="carousel" data-aos="fade-up" data-aos-duration="1200">
+        <h6
+          className="text-3xl sm:text-4xl text-blue-400 flex relative items-start text-center justify-center mb-10 poppins"
+          data-aos="fade-down"
+          data-aos-duration="300"
+        >
+          Carousel
+        </h6>
+        <Slider ref={sliderRef} {...settings}>
           {[img5, img2, img3, img4, img1].map((image, index) => (
             <div className="box" key={index} onClick={() => openModal(image)}>
               <img src={image} alt={`Description ${index + 1}`} />
