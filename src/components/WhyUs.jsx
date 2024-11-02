@@ -24,8 +24,7 @@ const WhyUs = () => {
           data-aos-duration="600"
           className="text-2xl sm:text-[36px] leading-tight text-center font-bold mb-4 sm:mb-8"
         >
-          Lorem ipsum dolor sit amet. <br /> Lorem ipsum dolor sit, amet
-          consectetur adipisicing.{" "}
+         Why Choose HSC Care Coaching?{" "}
         </h2>
         <div className="mt-10 sm:mt-20 flex flex-col md:flex-row gap-10 md:gap-6 items-center justify-center">
           <div className="w-full">
@@ -44,27 +43,19 @@ const WhyUs = () => {
             <div className="flex gap-3">
               <MdOutlineDone className="text-white translate-y-2 bg-blue-700 size-7 p-[1.8px] rounded-full" />
               <p className="text-dark text-[17px] w-full">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
-                reiciendis repellendus magnam fugit ab odio totam optio ducimus
-                cumque deserunt.
+              At HSC Care Coaching Center, we prioritize personalized attention for students in classes 9 to 12, fostering an engaging learning environment that encourages academic excellence and holistic development.
               </p>
             </div>
             <div className="flex gap-3">
               <MdOutlineDone className="text-white translate-y-2 bg-blue-700 size-7 p-[1.8px] rounded-full" />
               <p className="text-dark text-[17px] w-full">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus recusandae suscipit harum. Iure maiores numquam velit
-                ducimus explicabo illo amet animi minus suscipit cupiditate.
-                Assumenda.
+              Our experienced educators utilize innovative teaching methods and comprehensive resources, ensuring students grasp challenging concepts while building confidence and critical thinking skills essential for future success.
               </p>
             </div>
             <div className="flex gap-3">
               <MdOutlineDone className="text-white translate-y-2 bg-blue-700 size-7 p-[1.8px] rounded-full" />
               <p className="text-dark text-[17px] w-full">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Explicabo aspernatur saepe corporis possimus sunt expedita
-                debitis libero harum illo, modi id impedit vero autem dicta hic
-                temporibus officiis minima? Omnis?
+              We offer flexible scheduling and tailored study plans, accommodating individual learning styles and paces. With our supportive community and proven track record, students achieve their goals and excel in their academic journeys.
               </p>
             </div>
           </div>

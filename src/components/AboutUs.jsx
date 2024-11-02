@@ -28,21 +28,13 @@ const AboutUs = () => {
             <span className="text-primary">HSC CARE</span>
           </h2>
           <p className="text-[16px] text-dark text-justify mb-6">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
-            pariatur aspernatur consequatur! Possimus tempora architecto
-            repudiandae praesentium et quam commodi adipisci sequi a.
+          At HSC Care Coaching Center, we empower students in grades 9 to 12 to achieve academic excellence through personalized instruction and a supportive learning environment focused on their individual needs.
           </p>
           <p className="text-[16px] text-dark text-justify mb-6">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
-            velit dolorem unde molestias consequuntur amet, deserunt modi,
-            quibusdam cum itaque nulla fugit ea, laboriosam commodi provident
-            incidunt impedit dolore quis!
+          Our dedicated team of experienced educators fosters a deep understanding of subjects while promoting critical thinking and problem-solving skills, ensuring students develop both academically and personally throughout their educational journey.
           </p>
           <p className="text-[16px] text-dark text-justify mb-6">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
-            laborum amet porro velit, voluptas harum, hic quas quis sit dolore
-            commodi aperiam. Corporis quis velit ut voluptates hic aliquam
-            exercitationem, commodi autem nihil!
+          We prioritize a nurturing atmosphere where students feel comfortable, providing one-on-one support and mentorship to help them navigate challenges, prepare for examinations, and achieve their full potential.
           </p>
           <div className="mt-8 sm:mt-12">
             <div className="bg-gradient-to-r from-secondary via-current to-primary p-0.5 rounded-[30px] inline-block py-3 hover:bg-gradient-to-l duration-500">
