@@ -9,9 +9,6 @@ const Hero = () => {
 
   return (
     <div>
-        <h2 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-8 justify-center text-center align-center">
-          Welcome to <span className="text-primary">HSC CARE</span>
-        </h2>
       {/* bg is displayed only on large screens */}
       <div className="bg">
         <h1 className="text-black"></h1>

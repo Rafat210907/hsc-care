@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root { 
+  --primary-color-light: #20242f;
+  --primary-color: #919191;
+}
+
 /* Poppins Font  
 */
 @layer {
@@ -28,42 +34,49 @@ ion-icon{
 
 /* Default styling for all background classes */
 .bg, .bgmd, .bgm {
-  background-repeat: no-repeat;
-  background-position: center;
   width: 100%;
 }
 
 .bg {
-  background-image: url("./assets/large-banner.jpg");
-  height: 500px; /* Full screen height for larger screens */
+  background-image: url("./assets/large-banner.png");
+  height: 650px; /* Full screen height for larger screens */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .bgmd {
   background-image: url("./assets/medium.jpg"); /* Medium screen image */
   height: 500px; /* Adjusted height for medium screens */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .bgm {
   background-image: url("./assets/logo.png");
   height: 350px; /* Fixed height for smaller screens */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
 }
 
 /* Display only bg on screens 1146px or wider */
-@media (min-width: 1146px) {
+@media (min-width: 1371px) {
   .bgmd, .bgm {
     display: none;
   }
 }
 
 /* Display only bgmd on screens between 680px and 1145px */
-@media (min-width: 680px) and (max-width: 1145px) {
+@media (min-width: 1193px) and (max-width: 1371px) {
   .bg, .bgm {
     display: none;
   }
 }
 
 /* Display only bgm on screens 679px or narrower */
-@media (max-width: 679px) {
+@media (max-width: 1193px) {
   .bg, .bgmd {
     display: none;
   }

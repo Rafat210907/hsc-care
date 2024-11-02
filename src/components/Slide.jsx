@@ -91,13 +91,11 @@ const Slide = () => {
       <div className="carousel" data-aos="fade-up" data-aos-duration="1200">
         <h6
           className="text-3xl sm:text-4xl text-blue-400 flex relative items-start text-center justify-center mb-10 poppins"
-          data-aos="fade-down"
-          data-aos-duration="300"
         >
           Carousel
         </h6>
         <Slider ref={sliderRef} {...settings}>
-          {[img5, img2, img3, img4, img1].map((image, index) => (
+          {[img3, img2, img5, img4, img1].map((image, index) => (
             <div className="box" key={index} onClick={() => openModal(image)}>
               <img src={image} alt={`Description ${index + 1}`} />
             </div>
