@@ -34,8 +34,8 @@ export const teacherData = [
     img: img,
     name: "Proshanto Paul",
     profession: "Teacher",
-    qualificaions1: "Ba in Honours" ,
-    qualificaions2: " Ma in English",
+    qualificaions1: "Ba in ( Honours )" ,
+    qualificaions2: " Ma in ( English )",
     Facebook:" https://www.facebook.com/profile.php?id=100010094042256&mibextid=ZbWKwL"
   },
   {
