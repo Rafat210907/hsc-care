@@ -78,10 +78,19 @@ const ContactForm = () => {
             name="phone number"
           />
         </div>
+        <input
+            data-aos="fade-left"
+            data-aos-duration="1400"
+            type="Subject"
+            className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
+            required
+            placeholder="Write Your Subject  (Group)"
+            name="Subject"
+          />
         <textarea
           data-aos="fade-up"
           data-aos-duration="1400"
-          className="w-full bg-[#110c2eb3] rounded-lg px-5 py-4 outline-none resize-none placeholder:text-dark/80"
+          className="w-full bg-[#110c2eb3] rounded-lg px-5 py-4  mt-4 outline-none resize-none placeholder:text-dark/80"
           placeholder="Your Message"
           name="Message"
           id=""
