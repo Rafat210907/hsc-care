@@ -46,6 +46,8 @@ const OurTeachers = () => {
                 {data.name}
               </h2>
               <h6 className="text-xl text-dark">{data.profession}</h6>
+              <h2 className="text-sm text-primary">{data.qualificaions1}</h2>              
+              <h2 className="text-xl text-primary">{data.qualificaions}</h2>
             </div>
           ))}
         </div>
