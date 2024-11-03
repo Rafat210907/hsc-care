@@ -1,4 +1,4 @@
-// Team image 
+// Teachers image 
 import img from '../assets/logo.png'
 
 
@@ -9,7 +9,8 @@ export const teacherData = [
     id: 1,
     img: img,
     name: "Raju Deb" ,
-    qualificaions1: " BSS Honours MSS (Economics)  Special Masters in ICT ",
+    qualificaions1: " BSS Honours MSS (Economics) ",
+    qualificaions2: " Special Masters in ICT",
     profession: "Founder & CEO",
   },
   {
@@ -17,45 +18,42 @@ export const teacherData = [
     img: img,
     name: "Rubel Ahmad",
     profession: "Manager",
+    qualificaions: " " ,
+    Facebook: "https://www.facebook.com/profile.php?id=100006370320706"
   },
   {
     id: 3,
     img: img,
     name: "Koyes Akbor",
     profession: "Teacher",
-    qualificaions: " "  
+    qualificaions: " " ,
+    Facebook: "https://www.facebook.com/koyes.akbor.9?mibextid=ZbWKwL" 
   },
   {
     id: 4,
     img: img,
     name: "Proshanto Paul",
     profession: "Teacher",
-    qualificaions: "Ba in (Honours) , Ma in (English)" ,
+    qualificaions1: "Ba in Honours" ,
+    qualificaions2: " Ma in English",
+    Facebook:" https://www.facebook.com/profile.php?id=100010094042256&mibextid=ZbWKwL"
   },
   {
     id: 5,
     img: img,
-    name: "HSC CARE ",
+    name: "Shoaib Mahmud ",
     profession: "Teacher",
-    desc: "..............." ,
+    qualificaions1: " " ,
+    qualificaions2: " ",
+    Facebook: "https://www.facebook.com/profile.php?id=100008936828115&mibextid=ZbWKwL"
   },
   {
     id: 6,
     img: img,
-    name: "HSC CARE ",
+    name: "M A Mamun Maizvandari ",
     profession: "Teacher",
-    desc: "..............." ,
-  }, {
-    id: 7,
-    img: img,
-    name: "HSC CARE ",
-    profession: "Teacher",
-    desc: "..............." ,
-  }, {
-    id: 8,
-    img: img,
-    name: "HSC CARE ",
-    profession: "Teacher",
-    desc: "..............." ,
+    qualificaions1: " " ,
+    qualificaions2: " ",  
+    Facebook: "https://www.facebook.com/profile.php?id=100011713713782&mibextid=ZbWKwL"
   },
 ];

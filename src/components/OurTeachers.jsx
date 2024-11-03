@@ -1,8 +1,13 @@
 import { useEffect } from "react";
+import { FaFacebook } from "react-icons/fa";
 import { teacherData } from "../constants/Index";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useTypewriter } from "react-simple-typewriter";
+import { Link } from "react-router-dom";
+
+
+
 
 const OurTeachers = () => {
   const [typeEffect] = useTypewriter({
@@ -46,7 +51,11 @@ const OurTeachers = () => {
                 {data.name}
               </h2>
               <h6 className="text-xl text-dark">{data.profession}</h6>
-              <h2 className="text-sm text-primary">{data.qualificaions1}</h2>              
+              <h2  className="text-sm text-primary">{data.qualificaions1}</h2>
+              <h2 className="text-lg text-primary">{data.qualificaions2}</h2> 
+              <Link to={data?.Facebook}>
+                <FaFacebook className="text-lg size-10 p-2 mt-2 bg-slate-300 rounded-md text-black hover:bg-secondary hover:text-white duration-300"/>
+              </Link>                           
               <h2 className="text-xl text-primary">{data.qualificaions}</h2>
             </div>
           ))}
