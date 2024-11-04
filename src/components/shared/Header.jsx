@@ -73,12 +73,8 @@ const Header = () => {
           </ul>
         </nav>
         <div className="max-[888px]:hidden">
-          <Link
-            to="/contact"
-            className="px-4 py-2 border-2 hover:border-transparent hover:bg-blue-950 rounded-[30px] font-semibold  duration-300"
-          >
-            Contact Us
-          </Link>
+        <Link to='/contact' className="px-4 py-2 border-2 border-secondary hover:border-transparent hover:bg-blue-950 rounded-[30px] font-semibold  duration-300 text-purple-800 ">Contact Us</Link>
+
         </div>
         <div
           className="md:hidden w-10 h-[35px] p-2  rounded-[4px] cursor-pointer flex justify-center items-center z-10"
