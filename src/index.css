@@ -46,7 +46,7 @@ ion-icon{
 }
 
 .bgmd {
-  background-image: url("./assets/medium.jpg"); /* Medium screen image */
+  background-image: url("./assets/medium.png"); /* Medium screen image */
   height: 500px; /* Adjusted height for medium screens */
   background-repeat: no-repeat;
   background-position: center center;
