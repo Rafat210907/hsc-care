@@ -9,8 +9,9 @@ export const teacherData = [
     id: 1,
     img: img,
     name: "Raju Deb" ,
-    qualificaions1: " BSS Honours MSS (Economics) ",
-    qualificaions2: " Special Masters in ICT",
+    qualificaions1: " BSS (Hons.) ",
+    qualificaions2: "MSS (Economics) ",
+    qualificaions3: "Special Masters (ICT)",
     profession: "Founder & CEO",
   },
   {
@@ -18,7 +19,6 @@ export const teacherData = [
     img: img,
     name: "Rubel Ahmad",
     profession: "Manager",
-    qualificaions: " " ,
     Facebook: "https://www.facebook.com/profile.php?id=100006370320706"
   },
   {
@@ -26,7 +26,6 @@ export const teacherData = [
     img: img,
     name: "Koyes Akbor",
     profession: "Teacher",
-    qualificaions: " " ,
     Facebook: "https://www.facebook.com/koyes.akbor.9?mibextid=ZbWKwL" 
   },
   {
@@ -34,8 +33,8 @@ export const teacherData = [
     img: img,
     name: "Proshanto Paul",
     profession: "Teacher",
-    qualificaions1: "Ba in ( Honours )" ,
-    qualificaions2: " Ma in ( English )",
+    qualificaions1: "Ba (Hons.)" ,
+    qualificaions2: " Ma (English)",
     Facebook:" https://www.facebook.com/profile.php?id=100010094042256&mibextid=ZbWKwL"
   },
   {
@@ -43,17 +42,34 @@ export const teacherData = [
     img: img,
     name: "Shoaib Mahmud ",
     profession: "Teacher",
-    qualificaions1: " " ,
-    qualificaions2: " ",
+    qualificaions4: "BSC (Hons.) Chemistry",
+    institution: "Institute : SUST",
     Facebook: "https://www.facebook.com/profile.php?id=100008936828115&mibextid=ZbWKwL"
   },
   {
     id: 6,
     img: img,
     name: "M A Mamun Maizvandari ",
-    profession: "Teacher",
-    qualificaions1: " " ,
-    qualificaions2: " ",  
+    profession: "Teacher", 
+    qualificaions1: "BA (Hons.)" ,
+    qualificaions2: "MA (English) ", 
     Facebook: "https://www.facebook.com/profile.php?id=100011713713782&mibextid=ZbWKwL"
+  },
+  {
+    id: 7,
+    img: img,
+    name: "Tamim Hossain ",
+    profession: "Teacher", 
+    qualificaions1: "BSC(Petroleum & Mining Eng.)" ,
+    institution: "Institute : SUST",
+    Facebook: ""
+  },
+  {
+    id: 8,
+    img: img,
+    name: "Noyan Deb ",
+    profession: "Teacher", 
+    qualificaions1: "BSC (Hons.)" ,
+    qualificaions2: "MSC (Math) ", 
   },
 ];
