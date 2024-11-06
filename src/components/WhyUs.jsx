@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { MdOutlineDone } from "react-icons/md";
+//import { MdOutlineDone } from "react-icons/md";
 import ImgGIF from "../assets/Animationwhy.json";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -41,23 +41,10 @@ const WhyUs = () => {
             className="w-full space-y-8"
           >
             <div className="flex gap-3">
-              <MdOutlineDone className="text-white translate-y-2 bg-blue-700 size-7 p-[1.8px] rounded-full" />
               <p className="text-dark text-[17px] w-full">
-              At HSC Care Coaching Center, we prioritize personalized attention for students in classes 9 to 12, fostering an engaging learning environment that encourages academic excellence and holistic development.
+              We offer flexible scheduling and tailored study plans, accommodating individual learning styles and paces. With our supportive community and proven track record, students achieve their goals and excel in their academic journeys.Our experienced educators utilize innovative teaching methods and comprehensive resources, ensuring students grasp challenging concepts while building confidence and critical thinking skills essential for future success.
               </p>
-            </div>
-            <div className="flex gap-3">
-              <MdOutlineDone className="text-white translate-y-2 bg-blue-700 size-7 p-[1.8px] rounded-full" />
-              <p className="text-dark text-[17px] w-full">
-              Our experienced educators utilize innovative teaching methods and comprehensive resources, ensuring students grasp challenging concepts while building confidence and critical thinking skills essential for future success.
-              </p>
-            </div>
-            <div className="flex gap-3">
-              <MdOutlineDone className="text-white translate-y-2 bg-blue-700 size-7 p-[1.8px] rounded-full" />
-              <p className="text-dark text-[17px] w-full">
-              We offer flexible scheduling and tailored study plans, accommodating individual learning styles and paces. With our supportive community and proven track record, students achieve their goals and excel in their academic journeys.
-              </p>
-            </div>
+              </div>
           </div>
         </div>
       </div>

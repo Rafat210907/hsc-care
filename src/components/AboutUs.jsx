@@ -28,7 +28,7 @@ const AboutUs = () => {
             <span className="text-primary">HSC CARE</span>
           </h2>
           <p className="text-[16px] text-dark text-justify mb-6">
-          At HSC Care Coaching Center, we empower students in grades 9 to 12 to achieve academic excellence through personalized instruction and a supportive learning environment focused on their individual needs.
+          At HSC Care Coaching Center, From (2021) we empower students in grades 9 to 12 to achieve academic excellence through personalized instruction and a supportive learning environment focused on their individual needs.
           </p>
           <p className="text-[16px] text-dark text-justify mb-6">
           Our dedicated team of experienced educators fosters a deep understanding of subjects while promoting critical thinking and problem-solving skills, ensuring students develop both academically and personally throughout their educational journey.
