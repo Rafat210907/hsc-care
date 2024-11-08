@@ -51,10 +51,10 @@ const OurTeachers = () => {
                 {data.name}
               </h2>
               <h6 className="text-xl text-dark">{data.profession}</h6>
-              <h2  className="text-xl text-primary">{data.qualificaions1}</h2>
-              <h2  className="text-xl text-primary">{data.qualificaions2}</h2>
-              <h2 className="text-xl text-primary">{data.qualificaions3}</h2>
-              <h2 className="text-lg text-primary">{data.qualificaions4}</h2>
+              <h2  className="text-xl text-primary">{data.qualifications1}</h2>
+              <h2  className="text-xl text-primary">{data.qualifications2}</h2>
+              <h2 className="text-xl text-primary">{data.qualifications3}</h2>
+              <h2 className="text-lg text-primary">{data.qualifications4}</h2>
               <h2 className="text-xl text-primary">{data.institution}</h2>
 
               <Link to={data?.Facebook}>
