@@ -37,7 +37,7 @@ export const teacherData = [
     profession: "Teacher",
     qualifications1: "B A (Hons.)" ,
     qualifications2: " M A (English)",
-    Facebook:" https://www.facebook.com/profile.php?id=100010094042256&mibextid=ZbWKwL"
+    Facebook:"https://www.facebook.com/profile.php?id=100010094042256&mibextid=ZbWKwL"
   },
   {
     id: 5,
