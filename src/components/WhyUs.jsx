@@ -10,7 +10,7 @@ const WhyUs = () => {
     Aos.init();
   }, []);
   return (
-    <section id="why-us" className="sm:pt-20 relative">
+    <section id="why-us" className="sm:pt-20 relative pt-20">
       <div className=" max-width">
         <h6
           data-aos="fade-up"

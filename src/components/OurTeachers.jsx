@@ -19,7 +19,7 @@ const OurTeachers = () => {
     Aos.init();
   }, []);
   return (
-    <section id="ourteachers" className="relative mb-2 pt-14 sm:pt-20">
+    <section id="ourteachers" className="relative mb-2 pt-20 sm:pt-24">
       <div className="max-width">
         <h6
           data-aos=""

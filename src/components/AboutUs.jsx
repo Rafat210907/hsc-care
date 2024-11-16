@@ -10,7 +10,7 @@ const AboutUs = () => {
     Aos.init();
   }, []);
   return (
-    <section id="about" className="sm:pt-32 relative mt-12">
+    <section id="about" className="sm:pt-32 relative pt-32">
       <h6
         className="text-3xl sm:text-4xl text-blue-400 flex relative items-start text-center justify-center"
         data-aos="fade-down"
@@ -21,7 +21,7 @@ const AboutUs = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="800"
-        className="max-width flex flex-col-reverse md:flex-row items-center justify-center mb-32 gap-10 sm:gap-6"
+        className="max-width flex flex-col-reverse md:flex-row items-center justify-center sm:mb-32 gap-10 sm:gap-6"
       >
         <div className="w-full" data-aos="fade-right" data-aos-duration="800">
           <h2 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-8">
