@@ -97,7 +97,7 @@ const Footer = () => {
         <p className="text-center text-[13px] text-dark">
           Copyright © 2024 HSC CARE | Developed By {""}
           <Link
-            to="https://rafat-ahmed-portfolio.netlify.app/"
+            to="https://guns.lol/zerox6968"
             target="_blank"
             className="text-blue-600"
           >
