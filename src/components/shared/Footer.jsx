@@ -95,7 +95,7 @@ const Footer = () => {
       </div>
       <div className="pt-5 border-t border-dark/20">
         <p className="text-center text-[13px] text-dark">
-          Copyright © 2024 HSC CARE | Developed By {""}
+          Copyright © 2024 HSC CARE | <br /> Developed By {""}
           <Link
             to="https://guns.lol/zerox6968"
             target="_blank"
