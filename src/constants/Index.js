@@ -1,6 +1,6 @@
 // Teachers image 
 import img from '../assets/logo.png'
-
+import manager from '../assets/manager.jpg'
 
 
 // Teachers Data
@@ -16,7 +16,7 @@ export const teacherData = [
   },
   {
     id: 2,
-    img: img,
+    img: manager,
     name: "Rubel Ahmad",
     profession: "Manager",
     Facebook: "https://www.facebook.com/profile.php?id=100006370320706"
@@ -73,5 +73,15 @@ export const teacherData = [
     profession: "Teacher", 
     qualifications1: "B S C (Hons.)" ,
     qualifications2: "M S C (Math) ", 
+  },
+  {
+    id: 9,
+    img: img,
+    name: "Minhazur Rahman ",
+    profession: "Teacher", 
+    qualifications1: "Department of " ,
+    qualifications2: "Political Science", 
+    institution: "Institute : N.U",
+    Facebook: "https://www.facebook.com/mdminhajur.rahman.79 "
   },
 ];
