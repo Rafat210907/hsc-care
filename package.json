@@ -33,7 +33,12 @@
     "sweetalert2": "^11.14.4",
     "swiper": "^11.1.14",
     "typewriter-effect": "^2.21.0"
-  },
+  },"optionalDependencies": {
+  "@rollup/rollup-win32-x64-msvc": "4.27.2"
+},
+"overrides": {
+  "@rollup/rollup-win32-x64-msvc": "4.27.1"
+},
   "devDependencies": {
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
