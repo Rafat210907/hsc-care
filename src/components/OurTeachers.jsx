@@ -56,7 +56,6 @@ const OurTeachers = () => {
               <h2 className="text-xl text-primary">{data.qualifications3}</h2>
               <h2 className="text-lg text-primary">{data.qualifications4}</h2>
               <h2 className="text-xl text-primary">{data.institution}</h2>
-
               <Link to={data?.Facebook}>
                 <FaFacebook className="text-lg size-10 p-2 mt-2 bg-slate-300 rounded-md text-black hover:bg-blue-900 hover:text-white duration-300"/>
               </Link>                           

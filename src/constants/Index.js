@@ -82,6 +82,6 @@ export const teacherData = [
     qualifications1: "Department of " ,
     qualifications2: "Political Science", 
     institution: "Institute : N.U",
-    Facebook: "https://www.facebook.com/mdminhajur.rahman.79 "
+    Facebook: "https://www.facebook.com/mdminhajur.rahman.79 ",
   },
 ];
