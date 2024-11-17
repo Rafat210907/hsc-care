@@ -7,7 +7,12 @@ import img2 from "../assets/batch.jpg";
 import img3 from "../assets/batch-2.jpg";
 import img4 from "../assets/hsc-care-hsc-23-batch.jpg";
 import img5 from "../assets/hsc-care-banner.jpg";
+import img6 from "../assets/gp.jpg";
+//import img7 from "../assets/gp2.jpg";
+import img8 from "../assets/prize1.jpg";
+import img9 from "../assets/prize2.jpg";
 
+ 
 const Slide = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(null);
@@ -95,7 +100,7 @@ const Slide = () => {
           Carousel
         </h6>
         <Slider ref={sliderRef} {...settings}>
-          {[img3, img2, img5, img4, img1].map((image, index) => (
+          {[img3, img2, img5, img8, img9, img4, img1, img6, ].map((image, index) => (
             <div className="box" key={index} onClick={() => openModal(image)}>
               <img src={image} alt={`Description ${index + 1}`} />
             </div>
