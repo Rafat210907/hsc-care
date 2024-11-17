@@ -100,7 +100,7 @@ const Slide = () => {
           Carousel
         </h6>
         <Slider ref={sliderRef} {...settings}>
-          {[img3, img2, img5, img8, img9, img4, img1, img6, ].map((image, index) => (
+          {[img3, img2, img5, img8, img9, img4, img1, img6,].map((image, index) => (
             <div className="box" key={index} onClick={() => openModal(image)}>
               <img src={image} alt={`Description ${index + 1}`} />
             </div>
