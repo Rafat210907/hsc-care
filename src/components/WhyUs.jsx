@@ -11,7 +11,10 @@ const WhyUs = () => {
   }, []);
   return (
     <section id="why-us" className="sm:pt-20 relative pt-20">
-      <div className=" max-width">
+      <div className=" max-width"
+      data-aos="fade-up"
+            data-aos-duration="1200"
+      >
         <h6
           data-aos="fade-up"
           data-aos-duration="600"
@@ -29,16 +32,12 @@ const WhyUs = () => {
         <div className="mt-10 sm:mt-20 flex flex-col md:flex-row gap-10 md:gap-6 items-center justify-center">
           <div className="w-full">
             <Lottie
-              data-aos="fade-right"
-              data-aos-duration="1400"
               className="w-4/5 mx-auto"
               animationData={ImgGIF}
             />
           </div>
           <div
-            data-aos="fade-up"
-            data-aos-duration="800"
-            className="w-full space-y-8"
+              className="w-full space-y-8"
           >
             <div className="flex gap-3">
               <p className="text-dark text-[17px] w-full">
