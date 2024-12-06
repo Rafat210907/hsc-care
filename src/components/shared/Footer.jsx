@@ -23,7 +23,9 @@ const Footer = () => {
           </p>
           <br />
           <ion-icon name="mail-outline"></ion-icon>
-          <p>hsccare.2021@gmail.com</p>
+          <p className="mb-5">hsccare.2021@gmail.com</p>
+          <ion-icon name="call-outline"></ion-icon>
+          <p>+880 1601-912336</p>
         </div>
         <div>
           <h4
