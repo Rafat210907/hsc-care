@@ -33,6 +33,10 @@ ion-icon{
 
 
 /* Default styling for all background classes */
+section {
+  scroll-margin-top: 80px; /* Adjust this to match your navbar height */
+}
+
 .bg, .bgmd, .bgm {
   width: 100%;
 }

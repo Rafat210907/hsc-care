@@ -10,7 +10,7 @@ const AboutUs = () => {
     Aos.init();
   }, []);
   return (
-    <section id="about" className="sm:pt-32 relative pt-32">
+    <section id="about" className="relative pt-10 mb-10">
       <h6
         className="text-3xl sm:text-4xl text-blue-400 flex relative items-start text-center justify-center"
         data-aos="fade-down"

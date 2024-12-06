@@ -90,7 +90,8 @@ const Slide = () => {
   };
 
   return (
-    <div className="carousel-container">
+    <section className="mb-5">
+     <div className="carousel-container">
       <div className="carousel" data-aos="fade-up" data-aos-duration="1200">
         <h6
           className="text-3xl sm:text-4xl text-blue-400 flex relative items-start text-center justify-center mb-10 poppins"
@@ -118,6 +119,7 @@ const Slide = () => {
         </div>
       )}
     </div>
+    </section>
   );
 };
 
