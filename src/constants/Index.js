@@ -1,7 +1,7 @@
 // Teachers image 
 import img from '../assets/logo.png'
 import manager from '../assets/manager.jpg'
-
+import ProshantoSir from '../assets/IMG_2662.jpeg'
 
 // Teachers Data
 export const teacherData = [
