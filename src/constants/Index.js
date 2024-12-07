@@ -32,7 +32,7 @@ export const teacherData = [
   },
   {
     id: 4,
-    img: ProshantoSir,
+    img: img,
     name: "Proshanto Paul",
     profession: "Teacher",
     qualifications1: "B A (Hons.)" ,
