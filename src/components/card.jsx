@@ -48,7 +48,7 @@ const Card = () => {
     <section
       id="ourteachers"
       ref={sectionRef}
-      className="relative mb-2 pt-10"
+      className="relative pt-10"
     >
       <div className="max-width">
         <h6 className="text-2xl sm:text-3xl text-center text-blue-500">
