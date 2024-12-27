@@ -6,25 +6,24 @@ import "aos/dist/aos.css";
 import { useTypewriter } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
 
-
-
-
 const OurTeachers = () => {
   const [typeEffect] = useTypewriter({
     words: ["eachers"],
     loop: {},
     typeSpeed: 100,
   });
+
   useEffect(() => {
     Aos.init();
   }, []);
+
   return (
     <section id="ourteachers" className="relative mb-2 pt-20 sm:pt-24">
       <div className="max-width">
         <h6
           data-aos=""
           data-aos-duration="800"
-          className="text-2xl sm:text-3xl text-center text-blue-500 "
+          className="text-2xl sm:text-3xl text-center text-blue-500"
         >
           {" "}
           T{typeEffect}{" "}
@@ -51,14 +50,19 @@ const OurTeachers = () => {
                 {data.name}
               </h2>
               <h6 className="text-xl text-dark">{data.profession}</h6>
-              <h2  className="text-xl text-primary">{data.qualifications1}</h2>
-              <h2  className="text-xl text-primary">{data.qualifications2}</h2>
+              <h2 className="text-xl text-primary">{data.qualifications1}</h2>
+              <h2 className="text-xl text-primary">{data.qualifications2}</h2>
               <h2 className="text-xl text-primary">{data.qualifications3}</h2>
               <h2 className="text-lg text-primary">{data.qualifications4}</h2>
               <h2 className="text-xl text-primary">{data.institution}</h2>
-              <Link to={data?.Facebook}>
-                <FaFacebook className="text-lg size-10 p-2 mt-2 bg-slate-300 rounded-md text-black hover:bg-blue-900 hover:text-white duration-300"/>
-              </Link>                           
+
+              {/* Conditionally render the Facebook icon only if the Facebook prop exists */}
+              {data?.Facebook && (
+                <Link to={data.Facebook}>
+                  <FaFacebook className="text-lg size-10 p-2 mt-2 bg-slate-300 rounded-md text-black hover:bg-blue-900 hover:text-white duration-300" />
+                </Link>
+              )}
+
               <h2 className="text-xl text-primary">{data.qualificaions}</h2>
             </div>
           ))}
