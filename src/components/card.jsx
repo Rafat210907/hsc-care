@@ -1,22 +1,57 @@
-import { teacherData } from "../constants/Index"; // Ensure teacherData is imported correctly
-import { useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import { teacherData } from "../constants/Index";
 import { FaFacebook } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
 
-const TeacherCard = () => {
+const Card = () => {
   // Initialize AOS for animations
   useEffect(() => {
     Aos.init();
   }, []);
 
+  const [visibleCards, setVisibleCards] = useState(4); // Set initial visible cards to 4
+  const [isSectionVisible, setIsSectionVisible] = useState(false); // To track if the section is in view
+
+  const sectionRef = useRef(null);
+
+  // Track the visibility of the "OurTeachers" section using IntersectionObserver
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsSectionVisible(entry.isIntersecting); // Update visibility when section is in view
+      },
+      { threshold: 0.1 } // Trigger when 10% of the section is in the viewport
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
+
+  const handleShowMore = () => {
+    setVisibleCards(teacherData.length); // Show all cards
+  };
+
+  const handleShowLess = () => {
+    setVisibleCards(4); // Show only 4 cards
+  };
+
   return (
-    <section id="ourteachers" className="relative mb-2 pt-10">
+    <section
+      id="ourteachers"
+      ref={sectionRef}
+      className="relative mb-2 pt-10"
+    >
       <div className="max-width">
-        <h6
-          className="text-2xl sm:text-3xl text-center text-blue-500"
-        >
+        <h6 className="text-2xl sm:text-3xl text-center text-blue-500">
           Teachers
         </h6>
         <h2
@@ -27,8 +62,8 @@ const TeacherCard = () => {
           Meet Our Teachers
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
-          {/* Map through the teacherData to dynamically render cards */}
-          {teacherData.map((data) => (
+          {/* Map through the teacherData and display only the visible cards */}
+          {teacherData.slice(0, visibleCards).map((data) => (
             <div
               key={data.id}
               data-aos="fade-up"
@@ -59,9 +94,30 @@ const TeacherCard = () => {
             </div>
           ))}
         </div>
+
+        {/* Add Show More or Show Less button based on visibility */}
+        {isSectionVisible && (
+       <div className="sticky bottom-4 mt-4 left-0 right-0 mx-auto text-center">
+       {visibleCards < teacherData.length ? (
+         <button
+           onClick={handleShowMore}
+           className="px-6 py-3 text-blue-500 hover:text-blue-700 font-bold border border-blue-500 rounded-md bg-transparent backdrop-blur-lg"
+         >
+           Show More
+         </button>
+       ) : (
+         <button
+           onClick={handleShowLess}
+           className="px-6 py-3 text-blue-500 hover:text-blue-700 font-bold border border-blue-500 rounded-md bg-transparent backdrop-blur-md"
+         >
+           Show Less
+         </button>
+       )}
+     </div>       
+        )}
       </div>
     </section>
   );
 };
 
-export default TeacherCard;
+export default Card;
