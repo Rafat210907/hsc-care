@@ -10,13 +10,16 @@ export const teacherData = [
     name: "Raju Deb",
     qualifications: "B S S (Hons.) <br> M S S (Economics) <br> Special Masters (ICT)",
     profession: "Founder & CEO",
+    institution: "N/A"
   },
   {
     id: 2,
     img: manager,
     name: "Rubel Ahmad",
     profession: "Manager",
-    Facebook: "https://www.facebook.com/profile.php?id=100006370320706"
+    qualifications: "N/A",
+    Facebook: "https://www.facebook.com/profile.php?id=100006370320706",
+    institution: "N/A"
   },
   {
     id: 3,
@@ -24,7 +27,8 @@ export const teacherData = [
     name: "Koyes Akbor",
     profession: "Teacher",
     qualifications: "B B A (Honours) <br> M B A (Accounting)",
-    Facebook: "https://www.facebook.com/koyes.akbor.9?mibextid=ZbWKwL"
+    Facebook: "https://www.facebook.com/koyes.akbor.9?mibextid=ZbWKwL",
+    institution: "N/A"
   },
   {
     id: 4,
@@ -32,7 +36,8 @@ export const teacherData = [
     name: "Proshanto Paul",
     profession: "Teacher",
     qualifications: "B A (Honours) <br> M A (English)",
-    Facebook: "https://www.facebook.com/profile.php?id=100010094042256&mibextid=ZbWKwL"
+    Facebook: "https://www.facebook.com/profile.php?id=100010094042256&mibextid=ZbWKwL",
+    institution: "N/A"
   },
   {
     id: 5,
@@ -49,7 +54,8 @@ export const teacherData = [
     name: "M A Mamun Maizvandari",
     profession: "Teacher",
     qualifications: "B A (Honours) <br> M A (English)",
-    Facebook: "https://www.facebook.com/profile.php?id=100011713713782&mibextid=ZbWKwL"
+    Facebook: "https://www.facebook.com/profile.php?id=100011713713782&mibextid=ZbWKwL",
+    institution: "N/A"
   },
   {
     id: 7,
@@ -66,6 +72,7 @@ export const teacherData = [
     name: "Noyan Deb",
     profession: "Teacher",
     qualifications: "B S C (Honours) <br> M S C (Math)",
+    institution: "N/A"
   },
   {
     id: 9,
@@ -97,8 +104,8 @@ export const teacherData = [
     img: img,
     name: "Ripa Akter",
     profession: "Teacher",
-    qualifications: "",
-    institution: "",
+    qualifications: "N/A",
+    institution: "N/A",
   },
   {
     id: 13,
