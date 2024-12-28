@@ -40,7 +40,7 @@ export const teacherData = [
     name: "Shoaib Mahmud",
     profession: "Teacher",
     qualifications: "B S C (Honours) Chemistry",
-    institution: "Institute: S.U.S.T",
+    institution: "S.U.S.T",
     Facebook: "https://www.facebook.com/profile.php?id=100008936828115&mibextid=ZbWKwL"
   },
   {
@@ -57,7 +57,7 @@ export const teacherData = [
     name: "Tamim Hossain",
     profession: "Teacher",
     qualifications: "BSC (Petroleum & Mining Engineering)",
-    institution: "Institute: S.U.S.T",
+    institution: "S.U.S.T",
     Facebook: ""
   },
   {
@@ -73,7 +73,7 @@ export const teacherData = [
     name: "Minhazur Rahman",
     profession: "Teacher",
     qualifications: "Department of Political Science",
-    institution: "Institute: N.U",
+    institution: "N.U",
     Facebook: "https://www.facebook.com/mdminhajur.rahman.79"
   },
   {
@@ -82,7 +82,7 @@ export const teacherData = [
     name: "Sumaiya Akter",
     profession: "Teacher",
     qualifications: "B A Honours (English)",
-    institution: "Institute: Sylhet M.C.C",
+    institution: "Sylhet M.C.C",
   },
   {
     id: 11,
@@ -90,7 +90,7 @@ export const teacherData = [
     name: "Nazira Akter Atifa",
     profession: "Teacher",
     qualifications: "BSS Honours",
-    institution: "Institute: S.G.W.C",
+    institution: "S.G.W.C",
     Facebook: "https://www.facebook.com/mdminhajur.rahman.79"
   },
   {
@@ -107,6 +107,6 @@ export const teacherData = [
     name: "Sabbir Ahmed",
     profession: "Teacher",
     qualifications: "BSC Honours <br> Chemical Engineering <br> And Polymer Science",
-    institution: "Institute: S.U.S.T",
+    institution: "S.U.S.T",
   },
 ];

@@ -4,7 +4,6 @@ import AboutUs from "../components/AboutUs";
 import WhyUs from "../components/WhyUs";
 import Slide from "../components/Slide";
 
-
 const HomePage = () => {
   return (
     <>
