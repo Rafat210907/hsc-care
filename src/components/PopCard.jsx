@@ -35,13 +35,13 @@ const PopCard = ({ teacher, onClose }) => {
               {/* Teacher Name and Education */}
               <div className="ml-0 md:ml-10 mt-10 md:mt-16 gap-5">
                 <div className="flex gap-2">
-                  <span className="text-white text-xl">Name:</span>
+                  <span className="text-white text-xl">Name :</span>
                   <h2 className="text-xl font-poppins">{teacher.name}</h2>
                 </div>
 
                 {/* Teacher Education */}
                 <div className="mt-10 flex">
-                  <span className="font-semibold text-xl">Education:</span>
+                  <span className="font-semibold text-xl text-white ">Education :</span>
                   <span
                     className="block whitespace-pre-line ml-2 text-xl"
                     dangerouslySetInnerHTML={{ __html: teacher.qualifications }} // Render qualifications with HTML
@@ -51,7 +51,7 @@ const PopCard = ({ teacher, onClose }) => {
 
               {/* Teacher Institute */}
               <div className="ml-0 md:ml-10 mt-10 flex gap-2">
-                <h1 className="text-xl">Institute:</h1>
+                <h1 className="text-xl text-white">Institute :</h1>
                 <span
                   className="text-xl"
                   dangerouslySetInnerHTML={{ __html: teacher.institution }} // Render institution with HTML
