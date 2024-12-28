@@ -91,7 +91,6 @@ export const teacherData = [
     profession: "Teacher",
     qualifications: "BSS Honours",
     institution: "S.G.W.C",
-    Facebook: "https://www.facebook.com/mdminhajur.rahman.79"
   },
   {
     id: 12,
@@ -108,5 +107,6 @@ export const teacherData = [
     profession: "Teacher",
     qualifications: "BSC Honours <br> Chemical Engineering <br> And Polymer Science",
     institution: "S.U.S.T",
+    Facebook: "https://www.facebook.com/100093310013183/posts/467829499670713/?substory_index=596889606029115&app=fbl"
   },
 ];
