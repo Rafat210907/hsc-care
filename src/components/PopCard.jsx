@@ -40,10 +40,10 @@ const PopCard = ({ teacher, onClose }) => {
                 </div>
 
                 {/* Teacher Education */}
-                <div className="mt-10 flex">
-                  <span className="font-semibold text-xl text-white ">Education :</span>
+                <div className="mt-10 flex gap-2">
+                  <span className="font-semibold text-xl text-white ">Education:</span>
                   <span
-                    className="block whitespace-pre-line ml-2 text-xl"
+                    className="block whitespace-pre-line text-xl"
                     dangerouslySetInnerHTML={{ __html: teacher.qualifications }} // Render qualifications with HTML
                   />
                 </div>
