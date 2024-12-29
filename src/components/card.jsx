@@ -79,7 +79,7 @@ const Card = () => {
                 className="p-10 bg-[#110d2ed0] rounded-xl flex flex-col justify-center items-center"
               >
                 <div className="size-42 bg-dark overflow-hidden rounded-xl">
-                  <img src={data.img} className="w-full" alt="Team Member" />
+                  <img src={data.img} className="h-48" alt="Team Member" />
                 </div>
                 <h2 className="text-xl text-center text-blue-400 font-bold mt-3">
                   {data.name}
