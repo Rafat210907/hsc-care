@@ -104,7 +104,7 @@ const Card = () => {
               {visibleCards < teacherData.length ? (
                 <button
                   onClick={handleShowMore}
-                  className="px-6 py-3 text-blue-500 hover:text-blue-700 font-bold border border-blue-500 rounded-md bg-transparent backdrop-blur-lg"
+                  className="px-6 py-3 mb-5 text-blue-500 hover:text-blue-700 font-bold border border-blue-500 rounded-md bg-transparent backdrop-blur-lg"
                 >
                   Show More
                 </button>
