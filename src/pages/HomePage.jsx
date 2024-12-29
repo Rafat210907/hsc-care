@@ -7,11 +7,13 @@ import Slide from "../components/Slide";
 const HomePage = () => {
   return (
     <>
-      <Hero />
+    <div className="font-sans">
+       <Hero />
       <Slide />
       <AboutUs />
        <WhyUs />
       <OurTeachers />
+    </div>
     </>
   );
 };
