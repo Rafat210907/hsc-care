@@ -111,7 +111,7 @@ const Card = () => {
               ) : (
                 <button
                   onClick={handleShowLess}
-                  className="px-6 py-3 text-blue-500 hover:text-blue-700 font-bold border border-blue-500 rounded-md bg-transparent backdrop-blur-md"
+                  className="px-6 py-3 text-blue-500 hover:text-blue-700 font-bold border border-blue-500 rounded-md bg-transparent backdrop-blur-md mb-5"
                 >
                   Show Less
                 </button>
