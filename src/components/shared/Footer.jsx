@@ -37,22 +37,21 @@ const Footer = () => {
           </h4>
           <ul
             className="mt-4 space-y-3 text-[13px] sm:text-sm list-disc  px-4 text-dark"
-            data-aos="fade-up"
-            data-aos-duration="800"
+           
           >
-            <li className="hover:translate-x-3 hover:text-primary duration-200">
+            <li className="hover:translate-x-3 hover:text-primary duration-200 text-[16px]">
               <Link to="/">Home</Link>
             </li>
-            <li className="hover:translate-x-3 hover:text-primary duration-200">
+            <li className="hover:translate-x-3 hover:text-primary duration-200 text-[16px]">
               <Link to="/#about">About Us</Link>
             </li>
-            <li className="hover:translate-x-3 hover:text-primary duration-200">
+            <li className="hover:translate-x-3 hover:text-primary duration-200 text-[16px]">
               <Link to="/#why-us">Why Us</Link>
             </li>
-            <li className="hover:translate-x-3 hover:text-primary duration-200">
+            <li className="hover:translate-x-3 hover:text-primary duration-200 text-[16px]">
               <Link to="/#ourteachers">Our Teachers</Link>
             </li>
-            <li className="hover:translate-x-3 hover:text-primary duration-200">
+            <li className="hover:translate-x-3 hover:text-primary duration-200 text-[16px]">
               <Link to="/contact">Contact</Link>
             </li>
           </ul>

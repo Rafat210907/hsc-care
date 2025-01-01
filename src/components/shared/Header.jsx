@@ -27,7 +27,7 @@ const Header = () => {
           >
             <NavLink to="/">
               <li
-                className="md:hover:text-primary duration-300 mt-6 md:mt-0"
+                className="md:hover:text-primary duration-300 mt-6 md:mt-0 text-[16px]"
                 onClick={handleClose}
               >
                 Home
@@ -36,27 +36,27 @@ const Header = () => {
 
             <NavLink to="/#about">
               <li
-                className="md:hover:text-primary duration-300"
+                className="md:hover:text-primary duration-300 text-[16px]"
                 onClick={handleClose}
               >
                 About Us
               </li>
             </NavLink>
             <li
-              className="md:hover:text-primary duration-300"
+              className="md:hover:text-primary duration-300 text-[16px]"
               onClick={handleClose}
             >
               <NavLink to="/#why-us">Why Us</NavLink>
             </li>
             <li
-              className="md:hover:text-primary duration-300"
+              className="md:hover:text-primary duration-300 text-[16px]"
               onClick={handleClose}
             >
               <NavLink to="/#ourteachers">Our Teachers</NavLink>
             </li>
 
             <li
-              className="md:hover:text-primary duration-300"
+              className="md:hover:text-primary duration-300 text-[16px]"
               onClick={handleClose}
             >
               <NavLink to="/#ourteachers">
