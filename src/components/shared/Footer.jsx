@@ -71,21 +71,21 @@ const Footer = () => {
             data-aos-duration="800"
           >
             <Link
-              className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-purple-600 duration-300"
+              className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-blue-400 duration-300"
               to="https://www.facebook.com/profile.php?id=100063636052627"
               target="_blank"
             >
               <FaFacebook className="text-3xl " />
             </Link>
             <Link
-              className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-purple-600 duration-300"
+              className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-red-600 duration-300"
               to="https://youtube.com/@hsccare2962"
               target="_blank"
             >
               <FaYoutube className="text-3xl mt-5" />
             </Link>
             <Link
-              className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-purple-600 duration-300"
+              className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-green-600 duration-300"
               to="https://api.whatsapp.com/send?phone=%2B8801601912336"
               target="_blank"
             >
