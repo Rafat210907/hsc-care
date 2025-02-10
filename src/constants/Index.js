@@ -116,4 +116,13 @@ export const teacherData = [
     institution: "S.U.S.T",
     Facebook: "https://www.facebook.com/100093310013183/posts/467829499670713/?substory_index=596889606029115&app=fbl"
   },
+  {
+    id: 14,
+    img: img,
+    name: "Mehrab Hasan",
+    profession: "Teacher",
+    qualifications: "C.S.E",
+    institution: "S.U.S.T",
+    Facebook: "https://www.facebook.com/share/18idWu74cx/?mibextid=wwXlfr"
+  },
 ];
