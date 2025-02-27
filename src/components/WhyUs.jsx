@@ -10,7 +10,7 @@ const WhyUs = () => {
     Aos.init();
   }, []);
   return (
-    <section id="why-us" className="relative pt-5 mb-5">
+    <section id="why-us" className="relative pt-5 mb-20">
       <div className=" max-width"
       data-aos="fade-up"
             data-aos-duration="1200"
