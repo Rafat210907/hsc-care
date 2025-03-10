@@ -18,7 +18,7 @@ const PopCard = ({ teacher, onClose }) => {
           {/* Close Button */}
           <button
             onClick={onClose} // Close the PopCard modal when clicked
-            className="absolute top-4 right-4 bg-red-900  px-3 py-2 rounded-md font-bold hover:text-red-900 hover:bg-green-950 duration-200"> Close </button>
+            className="absolute top-4 right-4 bg-red-900  px-3 py-2 rounded-md font-bold hover:text-blue-500 hover:bg-[#1c1933d0] duration-200"> Close </button>
 
           {/* Teacher Info Section */}
           <div className="flex flex-col md:flex-row text-blue-500 font-sans font-semibold max-md:divide-y-2 md:divide-x-2 gap-5">
