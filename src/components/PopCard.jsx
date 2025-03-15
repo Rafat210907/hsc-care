@@ -12,7 +12,7 @@ const PopCard = ({ teacher, onClose }) => {
   return (
     <>
       {/* Modal Background */}
-      <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+      <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-xl z-50">
         {/* Modal Content */}
         <div className="h-auto w-[90%] md:w-[770px] rounded-lg p-6 relative md:backdrop-blur-xl">
           {/* Close Button */}
@@ -23,7 +23,7 @@ const PopCard = ({ teacher, onClose }) => {
           {/* Teacher Info Section */}
           <div className="flex flex-col md:flex-row text-blue-500 font-sans font-semibold max-md:divide-y-2 md:divide-x-2 gap-5">
             {/* Teacher Image */}
-            <div className="size-64 overflow-hidden rounded-3xl mt-10 md:mt-0 mx-auto md:mx-0">
+            <div className="size-64 overflow-hidden rounded-3xl mt-10 md:mt-7 mx-auto md:mx-0">
               <img src={teacher.img} alt={teacher.name} className="w-full" />
             </div>
 
