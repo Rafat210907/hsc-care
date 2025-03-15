@@ -309,3 +309,15 @@ section {
   background-color: white;
   border-radius: 16px;
 }
+
+@media (min-width: 435px) and (max-width: 540px) {
+  .foter{
+    margin-left:45px;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 621px) {
+  .foter{
+    margin-left:100px;
+  }
+}

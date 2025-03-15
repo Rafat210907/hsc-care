@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="pt-16 pb-4 relative">
       <div className="absolute inset-0 -z-20 h-full w-full items-center px-5 py-24 "></div>
-      <div className="max-width flex max-sm:flex-wrap md:justify-between  gap-y-12 gap-x-16 md:gap-0 mb-12">
+      <div className="max-width flex max-sm:flex-wrap md:justify-between  gap-y-12 gap-x-16 md:gap-0 mb-12 foter">
         <div
           className="md:w-1/4 text-center"
           data-aos="fade-up"
