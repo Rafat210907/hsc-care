@@ -13,19 +13,19 @@ const Footer = () => {
           data-aos="fade-up"
           data-aos-duration="800"
         >
-          <img className="w-28 mx-auto" src={logo} alt="" />
+          <img className="w-28 mx-auto rounded-full" src={logo} alt="" />
           <h2 className="text-xl text-white font-semibold my-2">
             HSC <span className="text-primary"> CARE</span>{" "}
           </h2>
-          <p className="text-dark text-md" data-aos-duration="900">
-            <ion-icon name="location-sharp"></ion-icon> Dakbanglow Road,
-            Balaganj, Sylhet Bangladesh
+          <p className="text-dark text-md hover:text-pink-500 hover:underline" data-aos-duration="900">
+            <ion-icon name="location-sharp"></ion-icon> <a href="https://maps.app.goo.gl/tdNUFBZuHxytFRwj6"> Dakbanglow Road,
+            Balaganj, Sylhet Bangladesh</a>
           </p>
           <br />
           <ion-icon name="mail-outline"></ion-icon>
-          <p className="mb-5">hsccare.2021@gmail.com</p>
+          <p className="mb-5 hover:text-pink-500"><a href="mailto:hsccare.2021@gmail.com">hsccare.2021@gmail.com</a></p>
           <ion-icon name="call-outline"></ion-icon>
-          <p>+880 1601-912336</p>
+          <p className="hover:text-pink-500"><a href="tel:+8801601912336">+880 1601-912336</a></p>
         </div>
         <div>
           <h4

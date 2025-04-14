@@ -15,10 +15,13 @@ const PopCard = ({ teacher, onClose }) => {
       <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-xl z-50">
         {/* Modal Content */}
         <div className="h-auto w-[90%] md:w-[770px] rounded-lg p-6 relative md:backdrop-blur-xl">
-          {/* Close Button */}
+          {/* Close Button - top right for md and up */}
           <button
-            onClick={onClose} // Close the PopCard modal when clicked
-            className="absolute top-4 right-4 bg-red-900  px-3 py-2 rounded-md font-bold hover:text-blue-500 hover:bg-[#1c1933d0] duration-200"> Close </button>
+            onClick={onClose}
+            className="hidden md:block absolute top-4 right-4 bg-red-900 px-3 py-2 rounded-md font-bold text-white hover:text-blue-500 hover:bg-[#1c1933d0] duration-200"
+          >
+            Close
+          </button>
 
           {/* Teacher Info Section */}
           <div className="flex flex-col md:flex-row text-blue-500 font-sans font-semibold max-md:divide-y-2 md:divide-x-2 gap-5">
@@ -28,31 +31,40 @@ const PopCard = ({ teacher, onClose }) => {
             </div>
 
             {/* Teacher Details */}
-            <div>
-              {/* Teacher Name and Education */}
+            <div className="w-full">
+              {/* Name and Education */}
               <div className="ml-0 md:ml-10 mt-10 md:mt-16 gap-5">
                 <div className="flex gap-2">
                   <span className="text-white text-xl">Name :</span>
                   <h2 className="text-xl font-poppins">{teacher.name}</h2>
                 </div>
 
-                {/* Teacher Education */}
                 <div className="mt-10 flex gap-2">
-                  <span className="font-semibold text-xl text-white ">Education:</span>
+                  <span className="font-semibold text-xl text-white">Education:</span>
                   <span
                     className="block whitespace-pre-line text-xl"
-                    dangerouslySetInnerHTML={{ __html: teacher.qualifications }} // Render qualifications with HTML
+                    dangerouslySetInnerHTML={{ __html: teacher.qualifications }}
                   />
                 </div>
               </div>
 
-              {/* Teacher Institute */}
+              {/* Institute */}
               <div className="ml-0 md:ml-10 mt-10 flex gap-2">
                 <h1 className="text-xl text-white">Institute :</h1>
                 <span
                   className="text-xl"
-                  dangerouslySetInnerHTML={{ __html: teacher.institution }} // Render institution with HTML
+                  dangerouslySetInnerHTML={{ __html: teacher.institution }}
                 ></span>
+              </div>
+
+              {/* Bottom Center Close Button for md and smaller */}
+              <div className="flex justify-center mt-10 md:hidden">
+                <button
+                  onClick={onClose}
+                  className="bg-red-900 px-6 py-2 rounded-md font-bold text-white hover:text-blue-500 hover:bg-[#1c1933d0] duration-200"
+                >
+                  Close
+                </button>
               </div>
             </div>
           </div>
