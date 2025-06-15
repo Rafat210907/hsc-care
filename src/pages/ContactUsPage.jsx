@@ -1,12 +1,8 @@
-import { useEffect } from 'react';
 import ContactForm from '../components/ContactForm';
-import Aos from "aos";
-import "aos/dist/aos.css";
+
 
 const ContactUsPage = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
+
     return (
         <section id="contact" className="max-width">
         <h6 data-aos='fade-right' data-aos-duration="700" className="text-lg sm:text-2xl text-center text-secondary mb-1 sm:mb-2">
