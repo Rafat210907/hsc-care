@@ -2,12 +2,13 @@ import { createBrowserRouter } from "react-router-dom";
 import ContactUsPage from "../Pages/ContactUsPage";
 import ErrorPage from "../Pages/ErrorPage";
 import HomePage from "../Pages/HomePage";
-import Layout from "./layout";
 import CarouselPage from "../Pages/CarouselPage";
 import AboutUsPage from "../Pages/AboutUsPage"
 import OurTeachers from "../Pages/OurTeachers";
 import WhyUs from "../Pages/WhyUs";
 import Faq from "../Pages/Faq";
+import Layout from "./layout";
+
 export const router = createBrowserRouter([
   {
     path: "/",
