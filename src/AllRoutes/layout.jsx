@@ -5,9 +5,9 @@ const Layout = () => {
     <>
       <div className="h-20 mb-10">
         <Header />
-        </div>
          <Outlet />
       <ScrollRestoration />
+    </div>
     </>
   );
 };
