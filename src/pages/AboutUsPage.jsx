@@ -18,7 +18,7 @@ const AboutUsPage = () => {
 
 
       {/* Main Heading */}
-      <div className="2xl:mt-10">
+      <div className="2xl:mt-10 ">
         {loading ? (
           <div className="flex flex-col items-center space-y-3 my-3">
             <Skeleton className="h-[20px] w-[200px] rounded-full" />
