@@ -1,8 +1,9 @@
 // Teachers image 
-import img from './logow.png'
+import img from '../assets/logo.png'
+import manager from '../assets/manager.jpg'
 
 // Teachers Data
- const teachersData = [
+export const teacherData = [
   {
     id: 1,
     img: img,
@@ -13,7 +14,7 @@ import img from './logow.png'
   },
   {
     id: 2,
-    img: img,
+    img: manager,
     name: "Rubel Ahmad",
     profession: "Manager",
     qualifications: "N/A",
@@ -125,4 +126,3 @@ import img from './logow.png'
     Facebook: "https://www.facebook.com/share/18idWu74cx/?mibextid=wwXlfr"
   },
 ];
-export default teachersData;

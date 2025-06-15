@@ -1,13 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
-// import ContactUsPage from "../Pages/ContactUsPage";
-// import ErrorPage from "../Pages/ErrorPage";
-import HomePage from "../Pages/HomePage";
+import ContactUsPage from "../pages/ContactUsPage";
+import ErrorPage from "../pages/ErrorPage";
+import HomePage from "../pages/HomePage";
 import Layout from "./layout";
-import CarouselPage from "../Pages/CarouselPage";
-import AboutUsPage from "../Pages/AboutUsPage"
-import OurTeachers from "../Pages/OurTeachers";
-import WhyUs from "../Pages/WhyUs";
-import Faq from "../Pages/Faq";
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -18,33 +14,13 @@ export const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "/carousel",
-        element: <CarouselPage/>,
+        path: "/contact",
+        element: <ContactUsPage />,
       },
-       {
-        path: "/aboutus",
-        element: <AboutUsPage/>,
-      },
-      {
-        path: "/ourteachers",
-        element: <OurTeachers/>,
-      },
-      {
-        path:"/whyus",
-        element: <WhyUs/>
-      },
-      {
-        path:"/Faq",
-        element: <Faq/>
-      },
-      // {
-      //   path: "/contact",
-      //   element: <ContactUsPage />,
-      // },
     ],
   },
-  // {
-  //   path: "*",
-  //   element: <ErrorPage />,
-  // },
+  {
+    path: "*",
+    element: <ErrorPage />,
+  },
 ]);
