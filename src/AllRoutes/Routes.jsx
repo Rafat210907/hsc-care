@@ -1,8 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
-import ContactUsPage from "../Pages/ContactUsPage";
 import ErrorPage from "../Pages/ErrorPage";
 import HomePage from "../Pages/HomePage";
-import CarouselPage from "../Pages/CarouselPage";
+import ContactUsPage from "../Pages/ContactUsPage";
 import AboutUsPage from "../Pages/AboutUsPage"
 import OurTeachers from "../Pages/OurTeachers";
 import WhyUs from "../Pages/WhyUs";
