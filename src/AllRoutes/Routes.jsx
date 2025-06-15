@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 // import ContactUsPage from "../Pages/ContactUsPage";
-import ErrorPage from "../Pages/ErrorPage";
+// import ErrorPage from "../Pages/ErrorPage";
 import HomePage from "../Pages/HomePage";
 import Layout from "./layout";
 import CarouselPage from "../Pages/CarouselPage";
@@ -43,8 +43,8 @@ export const router = createBrowserRouter([
       // },
     ],
   },
-  {
-    path: "*",
-    element: <ErrorPage />,
-  },
+  // {
+  //   path: "*",
+  //   element: <ErrorPage />,
+  // },
 ]);
