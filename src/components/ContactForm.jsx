@@ -1,42 +1,47 @@
-
-import React from "react";
-
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Swal from "sweetalert2";
 
 const ContactForm = () => {
   const [result, setResult] = React.useState("");
-const onSubmit = async (event) => {
-  event.preventDefault();
-  setResult("");
-  const formData = new FormData(event.target);
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("");
+    const formData = new FormData(event.target);
+
     formData.append("access_key", "7d1e8a82-1fc7-4bf0-8c85-4d4c3dd95280");
 
-  const response = await fetch("https://api.web3forms.com/submit", {
-    method: "POST",
-    body: formData,
-  });
-
-  const data = await response.json();
-  if (data.success) {
-    Swal.fire({
-      title: "Success!",
-      text: "Mail Sent Successfully!",
-      icon: "success",
-    }).then(() => {
-      event.target.reset();
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
     });
-  } else {
-    console.log("Error", data);
-    setResult(data.message);
-  }
-};
 
+    const data = await response.json();
+    if (data.success) {
+      Swal.fire({
+        title: "Sucess!",
+        text: "Mail Sent Successfully!",
+        icon: "success",
+      }),
+        event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
+  useEffect(() => {
+    Aos.init();
+  }, []);
 
   return (
     <div className="mx-auto max-w-[800px]">
       <form data-aos="fade-up" data-aos-duration="1000" onSubmit={onSubmit}>
         <div className="flex flex-col md:flex-row gap-4 mb-4">
           <input
+            data-aos="fade-down"
+            data-aos-duration="1400"
             type="text"
             className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
             required
@@ -44,6 +49,8 @@ const onSubmit = async (event) => {
             name="name"
           />
           <input
+            data-aos="fade-left"
+            data-aos-duration="1200"
             type="text"
             className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
             required

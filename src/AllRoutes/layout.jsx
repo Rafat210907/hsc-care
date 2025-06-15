@@ -1,13 +1,16 @@
 import { Outlet, ScrollRestoration } from "react-router-dom";
-import Header from "./../components/Header";
+import Footer from "../components/shared/Footer";
+import Header from "../components/shared/Header";
+
 const Layout = () => {
   return (
     <>
       <div className="h-20 mb-10">
         <Header />
-         <Outlet />
+      </div>
+      <Outlet />
       <ScrollRestoration />
-    </div>
+      <Footer />
     </>
   );
 };
